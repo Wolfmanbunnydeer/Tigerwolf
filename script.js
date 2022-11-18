@@ -520,7 +520,12 @@ function myFunction() {
   } else {
     element.getElementByClass = "flex-container";
   }
-}
+  function AddGame() {
+  const frame = document.getElementById("myFrame");
+  const h1 = frame.contentWindow.document.getElementsByTagName("H1")[0];
+  const node = document.importNode(h1, true);
+  document.body.appendChild(node);
+}}
       
 
     }
