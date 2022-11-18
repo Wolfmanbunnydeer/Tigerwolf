@@ -670,12 +670,8 @@ function newElement() {
       div.style.display = "none";
 
     }
-
   }
-
-}
-
-
+ }
 }
 
 
