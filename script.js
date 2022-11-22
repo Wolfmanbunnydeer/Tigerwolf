@@ -522,8 +522,8 @@ function myFunction() {
   }
   function AddGame() {
   const frame = document.getElementById("myFrame");
-  const h1 = frame.contentWindow.document.getElementsByTagName("H1")[0];
-  const node = document.importNode(h1, true);
+  const h2 = frame.contentWindow.document.getElementsByTagName("H2")[0];
+  const node = document.importNode(h2, true);
   document.body.appendChild(node);
 }}
       
