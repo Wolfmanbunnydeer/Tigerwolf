@@ -1,6 +1,6 @@
 document.getElementById("gameButton").addEventListener("click", myFunction)
 document.getElementById("updateButton").addEventListener("click", myFunction)
-}
+
 function myFunction()
 var theNFLstat = "<div>" + "<h2>"
 let theflex = ""
