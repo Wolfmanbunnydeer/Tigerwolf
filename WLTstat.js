@@ -225,12 +225,14 @@ function GameFunction()
 function AddGame(){
        
             var rows = "";
+            var wins= "",
+            var loses = "",
             var date = document.getElementById("Date").value;
             var Hometeam= document.getElementById("Hometeam").value;
             var awayteam = document.getElementById("awayteam").value;   
               var homepoint = document.getElementById("homepoint").value; 
               var awaypoint = document.getElementById("awaypoint").value;
-           flex += "<div><p>"  +theDate + theHometeam + theawayteam  + thehomepoint +
+           flex += "<div><h2><p>"+theDate + theHometeam + theawayteam  + thehomepoint +
                + theawaypoint +".";
             $(flex-container).appendTo("#gridlayout");
        
@@ -243,7 +245,7 @@ function UPDATE(){
        
             var grid = "";
             var date = document.getElementById("Date").value;
-            var Hometeam= document.getElementById("Hometeam").value;
+            var hometeam= document.getElementById("Hometeam").value;
             var awayteam = document.getElementById("awayteam").value;   
               var homepoint = document.getElementById("homepoint").value; 
               var awaypoint = document.getElementById("awaypoint").value;
@@ -253,5 +255,21 @@ function UPDATE(){
     }
 
     function UPDATE(){
+        document.getElementById("game").addgame();
+    }
+function DRAW(){
+       
+            var grid = "";
+            var date = document.getElementById("Date").value;
+            var hometeam= document.getElementById("Hometeam").value;
+            var awayteam = document.getElementById("awayteam").value;   
+              var homepoint = document.getElementById("homepoint").value; 
+              var awaypoint = document.getElementById("awaypoint").value;
+           flex += "<div><p>"  +theDate + theHometeam + theawayteam  + thehomepoint +
+               + theawaypoint +".";
+            $(flex-container).appendTo("#gridlayout");       
+    }
+
+    function Draw(){
         document.getElementById("game").addgame();
     }
