@@ -95,9 +95,7 @@ function deleteItem() {
     input.focus();
 }
 
-function AddGame() {
-    window.location.assign("https://wolfmanbunnydeer.github.io/NFLgame-team3/")
-}
+
 // Create a "close" button and append it to each list item
 
 var myNodelist = document.getElementsByTagName("LI");
