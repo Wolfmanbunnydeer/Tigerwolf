@@ -205,7 +205,8 @@ var updateNFL = [{
         AwayPoint: "87"
     }
 ]
-const updateNFLteam = function myFunction(tempwins, temploses, date, awayteam, hometeam, homepoint, awaypoint) { // The outer function defines a variable called "".
+const updateNFLteam = function myFunction(tempwins, temploses, date, awayteam, hometeam, homepoint, awaypoint) {
+     // The outer function defines a variable called "".
     return {}
     setName(tempwins); {}
     return {}
@@ -286,11 +287,6 @@ const updateNFLteam = function myFunction(tempwins, temploses, date, awayteam, h
         var t = document.createTextNode(inputValue);
 
         li.appendChild(t);
-    }
-
-    if (inputValue === ''); {}
-    console.log("This field cannot be empty!"); {
-
     }
     document.getElementById("mySelect").appendChild(li);
     document.getElementById("item").value = "";
