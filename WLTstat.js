@@ -1,4 +1,48 @@
-var NFL = [{
+// Create a "close" button and append it to each list item
+
+var myNodelist = document.getElementsByTagName("LI");
+
+
+var div = document.createElement("DIV");
+
+var txt = document.createTextNode("\u00D7");
+
+div.className = "txt";
+
+div.appendChild(txt);
+//
+document.getElementById("gameButton").addEventListener("click", myFunction)
+document.getElementById("updateButton").addEventListener("click", myFunction)
+
+function myFunction() {
+    var theNFLstat = "<div>" + "<h2>"
+    let theflex = ""
+    var i
+    for (i = 0; theflex.length; i++)
+        if (i > 0);
+    theflex = "<div>" + "<h2>"
+}
+for (let i = 0; i < theNFLstat.length; i++) {}
+for (let j = 0; j <= i; j++)
+    for (let i in theNFLstat.NFL) {
+        i += "<h2>" + "<div>" + theNFLstat.NFL[i].name + "</div>" + "</h2>";
+        for (let j in theNFLstat.NFL[i].flex) {
+            i += theNFLstat.NFL[i].flex[j] + "<br>";
+        }
+        document.getElementById("gameOutput").innerHTML = "</div>" + "</h2>";
+    }
+var h2, div, input, button, select, option, a, i =
+    input = document.getElementById("mySelect");
+div = input.value.toUpperCase();
+button = document.getElementById("gameButton");
+select = option.getElementsByTagName("a");
+for (i = 0; i < li.length; i++) {}
+a = a[i].getElementsByTagName("a")[0];
+if (a.innerHTML.toUpperCase().indexOf(button) > -1) {
+    a[i].style.display = "";
+} else {}
+a[i].style.display = "flex";
+var updateNFL = [{
         City: "Arizona",
         Name: "Arizona Cardinal",
         Date: "March 7",
@@ -61,7 +105,6 @@ var NFL = [{
         Homepoint: "90",
         AwayPoint: "87"
     },
-
     {
         City: "GreenBay",
         Name: "Green Bay Packers",
@@ -71,7 +114,6 @@ var NFL = [{
         Homepoint: "90",
         AwayPoint: "87"
     },
-
     {
         City: " Los Angeles",
         Name: " Los Angeles Rams",
@@ -162,116 +204,92 @@ var NFL = [{
         Homepoint: "90",
         AwayPoint: "87"
     }
-];
-var tempdate = document.querySelector("date");
-var hometeam = document.querySelector("Hometeam");
-var awayteam = document.querySelector("awayteam");
-var homepoint = document.querySelector("homepoint");
-var awaypoint = document.querySelector(".awaypoint");
+]
+const updateNFLteam = function myFunction(tempwins, temploses, date, awayteam, hometeam, homepoint, awaypoint) {
+    // The outer function defines a variable called "".
+    return {}
+    setName(tempwins); {}
+    return {}
+    setName(temploses); {}
+    return {}
+    setName(date); {}
+    return {}
+    setName(awayteam); {}
+    return {}
+    setName(awaypoint); {}
+    return {}
+    setName(hometeam); {}
+    return {}
+    setName(homepoint); {
+        // The enclosed function also defines a variable called "name".
+        tempwins = tempwins;
+        temploses = temploses;
+        date = date;
+        awayteam = awayteam;
+        awaypoint = awaypoint;
+        homepoint = homepoint;
+        hometeam = hometeam;
+        // How do we access the "name" defined by the outer function?
+        const NFL = updateNFL('team');
+        NFL.tempwins();
+        NFL.temploses();
+        NFL.getDate(); // Set date
+        NFL.setDate('mm/dd/yyyy');
+        NFL.setHometeam('male');
+        NFL.getHometeam(); // male
+        NFL.setAwayteam(); // Set team
+        NFL.getAwayteam(); // male
+        NFL.setAwaypoint(); //Set points//
+        NFL.getAwaypoint();
 
-var NFL = document.createElement("game").innerHTML = [{
-    thisDate: tempdate,
-    AwayTeam: awayteam,
-    Hometeam: hometeam,
-    Homepoint: homepoint,
-    AwayPoint: awaypoint
-}]
 
+        // Click on a close button to hide the current list item
 
-let el;
-let userInput;
-let input = document.getElementById("date");
-let list = document.getElementById("list");
-let id = 0;
-let nums = [];
+        var flexcontainer = document.getElementsByClassName("flex-container");
 
-function AddGame() {
-    id++;
-    el = document.createElement("option");
-    el.style.listStyle = "none";
-    el.id = id;
-    list.append(el);
-    el.innerHTML = input.value;
-    nums.push(id);
-    console.log(nums);
-    console.log(el);
-    input.value = "";
-    input.focus();
-}
+        var i;
 
-function AddGame() {
-    var x = document.getElementById("gameForm");
-    var text = "";
-    var i;
-    for (i = 0; i < x.length; i++) {
-        text += x.elements[i].value + "<br>";
+        for (i = 0; i < close.length; i++) {}
+        close[i].onclick = function() {
+
+            var div = this.parentElement;
+
+            div.style.display = "none";
+
+        }
+
+        // Add a "checked" symbol when clicking on a list item
+
+        var list = document.querySelector('ul'); {
+
+        }
+
+        do {
+            var inputValue = document.getElementById("item").value;
+
+            var t = document.createTextNode(inputValue);
+
+            li.appendChild(t);
+            document.getElementById("mySelect").appendChild(li);
+            document.getElementById("item").value = "";
+            document.getElementById("item").value = "";
+
+            var div = document.createElement("DIV");
+
+            var txt = document.createTextNode("\u00D7");
+
+            span.className = "header";
+
+            span.appendChild(txt);
+
+            li.appendChild(div);
+        }
+        while (i = 0) i < header.length;
+        (i++); {}
+        close[i].onclick = function() {}
+        var div = this.parentElement; {}
+        div.style.display = "flex-container"; {
+            document.getElementById("gameOutput").innerHTML = "";
+        }
     }
-    document.getElementById("Game").innerHTML = text;
-}
-
-function GameFunction()
-let theDate =
-    document.getElementbyId("Date").value;
-let theHometeam =
-    document.getElementbyId("Hometeam").value;
-let theawayteam =
-    document.getElementbyId("awayteam").value;
-let thehomepoint =
-    document.getElementbyId("homepoint").value;
-let theawaypoint =
-    document.getElementById("awaypoint").value;
-
-function AddGame() {
-
-    var rows = "";
-    var wins = "";
-    var loses = "";
-    var date = document.getElementById("Date").value;
-    var Hometeam = document.getElementById("Hometeam").value;
-    var awayteam = document.getElementById("awayteam").value;
-    var homepoint = document.getElementById("homepoint").value;
-    var awaypoint = document.getElementById("awaypoint").value;
-    flex += "<div><h2><p>" + theDate + theHometeam + theawayteam + thehomepoint +
-        +theawaypoint + ".";
-    $(flex - container).appendTo("#gridlayout");
-
-}
-
-function AddGame() {
-    document.getElementById("game").addgame();
-}
-
-function UPDATE() {
-
-    var grid = "";
-    var date = document.getElementById("Date").value;
-    var hometeam = document.getElementById("Hometeam").value;
-    var awayteam = document.getElementById("awayteam").value;
-    var homepoint = document.getElementById("homepoint").value;
-    var awaypoint = document.getElementById("awaypoint").value;
-    flex += "<div><p>" + theDate + theHometeam + theawayteam + thehomepoint +
-        +theawaypoint + ".";
-    $(flex - container).appendTo("#gridlayout");
-}
-
-function UPDATE() {
-    document.getElementById("game").addgame();
-}
-
-function DRAW() {
-
-    var grid = "";
-    var date = document.getElementById("Date").value;
-    var hometeam = document.getElementById("Hometeam").value;
-    var awayteam = document.getElementById("awayteam").value;
-    var homepoint = document.getElementById("homepoint").value;
-    var awaypoint = document.getElementById("awaypoint").value;
-    flex += "<div><p>" + theDate + theHometeam + theawayteam + thehomepoint +
-        +theawaypoint + ".";
-    $(flex - container).appendTo("#gridlayout");
-    $(flex - container).appendTo("#flex-container");
-}
-
-function Draw() {
-    document.getElementById("game").addgame();
 }
