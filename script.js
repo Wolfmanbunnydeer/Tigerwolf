@@ -578,3 +578,85 @@ for (i = 0; i < close.length; i++) {
         }
         document.getElementById("gameDiv").value = "";
     }
+    
+// The enclosed function also defines a variable called "name".
+City = City;
+Name = Name;
+Date= Date;
+Awayteam = Awayteam;
+Awaypoint = Awaypoint;
+Homepoint = Homepoint;
+Hometeam = Hometeam;
+{}
+var NFL = (temploses, tempwins, date, hometeam, homepoint, awaypoint, awayteam);
+forEach(element => updateNFLteam);
+for (let index = 0; index < array.length; index++)
+    document.getElementsByTagName = array[index];
+for (let index = 0; index < array.length; index++) {
+    const element = array[index];
+}
+while (condition);
+(forEachelement);
+updateNFLapp.use(express.static('public')); {
+    index: flex
+};
+var i = 0;
+const element = array[index]; {}
+// The outer function defines a variable called "".
+return {}
+setName(tempwins)
+return {}
+setName(temploses)
+return {}
+setName(date)
+return {}
+setName(awayteam)
+return {}
+setName(awaypoint)
+return {}
+setName(hometeam)
+return {
+
+}
+setName(homepoint)
+return {}
+// The enclosed function also defines a variable called "name".
+tempwins = tempwins;
+temploses = temploses;
+date = date;
+awayteam = awayteam;
+awaypoint = awaypoint;
+homepoint = homepoint;
+hometeam = hometeam;
+// How do we access the "name" defined by the outer function?
+const NFL = updateNFL('team');
+NFL.tempwins();
+NFL.temploses();
+NFL.getDate(); // Set date
+NFL.setDate('mm/dd/yyyy');
+NFL.setHometeam('male');
+NFL.getHometeam(); // male
+NFL.setAwayteam(); // Set team
+NFL.getAwayteam(); // male
+NFL.setAwaypoint(); //Set points//
+NFL.getAwaypoint();
+var updateNFL = [
+    {
+        tempwins:any,
+        templose:any,
+        date:any,
+        hometeam:any,
+        awayteam:any,
+        awaypoint:any,
+        homepoint:any,
+    },
+]
+var updateWinsLoses={
+    tempwin:number,
+    temploses:number,
+}
+function AddGame()
+    div.getElementsByClassName("flex-container").addEventListener("click",AddGame);
+
+    function Update()
+    div.getElementsByClassName("flex-container").addEventListener("click",update); 
