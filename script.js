@@ -96,7 +96,7 @@ function deleteItem() {
 }
 
 function AddGame() {
-    window.location.assign("https://wolfmanbunnydeer.github.io/NFLgameteam3/")
+    window.location.assign("https://wolfmanbunnydeer.github.io/NFLgame-team3/")
 }
 // Create a "close" button and append it to each list item
 
@@ -163,8 +163,6 @@ var t = document.createTextNode(inputValue);
 li.appendChild(t);
 
 if (inputValue === '') {
-
-    alert("This field cannot be empty!");
 
 } else {
 
@@ -557,7 +555,8 @@ for (i = 0; i < close.length; i++) {
                         AwayPoint: "87"
                     }
                 ]
-                theNFLstat = theNFLstat + "The Date is " + ".<br> The Hometeam is" + ".<br> The Awayteam is" + ".<br> The Awaypoint is" + ".<br>the Homepoint is" + ".";
+                theNFLstat = theNFLstat + "The Date is " + ".<br> The Hometeam is" +
+                    ".<br> The Awayteam is" + ".<br> The Awaypoint is" + ".<br>the Homepoint is" + ".";
             }
             document.getElementById("gameOutput").innerHTML = theNFLstat;
         }
