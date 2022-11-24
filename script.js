@@ -58,7 +58,46 @@ document.getElementById("Game");
       input.value = "";
       input.focus();
     }
-    
+  function update() {
+      id++;
+      el = document.createElement("li");
+      el.style.listStyle = "none";
+      el.id = id;
+      list.appendChild(el);
+      el.innerHTML = input.value;
+      nums.push(id);
+      console.log(nums);
+      console.log(el);
+      input.value = "";
+      input.focus();
+    }
+
+    let link;
+    let flex;
+document.getElementById("Game");
+    let mylist = document.getElementById("list");
+    let theid = 0;
+    let thenums = [];
+
+    function update() {
+      id++;
+      el = document.createElement("li");
+      el.style.listStyle = "none";
+      el.id = id;
+      list.append(el);
+      el.innerHTML = input.value;
+     
+      nums.push(id);
+      console.log(nums);
+      console.log(el);
+      input.value = "";
+      input.focus();
+    }   
+
+
+
+
+
     //try another way to add starting with an existing li
     //then create other li dynamically
     // function addEl() {
