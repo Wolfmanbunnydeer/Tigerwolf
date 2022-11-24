@@ -1,6 +1,6 @@
 document.getElementById("gameButton").addEventListener("click", myFunction);
-document.getElementById("addbtn").addEventListener("click", myFunction);
-document.getElementById("updatebtn").addEventListener("click", myFunction);
+document.getElementByClassName("addBtn").addEventListener("click", myFunction);
+document.getElementsByClassName("updateBtn").addEventListener("click", myFunction);
 function UPDATE() {
 let theflex = ""
 var i
