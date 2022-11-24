@@ -1,5 +1,5 @@
-document.getElementById("gameButton").addEventListener("click", myFunction)
-document.getElementById("updateButton").addEventListener("click", myFunction)
+document.getElementById("addbtn").addEventListener("click", myFunction)
+document.getElementById("updatebtn").addEventListener("click", myFunction)
 
 function myFunction()
 var theNFLstat = "<div>" + "<h2>"
