@@ -1,7 +1,7 @@
 
 document.getElementById("gameButton").addEventListener("click", myFunction);
 
-function myFunction() {
+function UPDATE() {
 let theflex = ""
 var i
   for (i= 0; theflex.length; i++)
@@ -13,7 +13,7 @@ var theNFLstat  = ""
 for (let i = 0; i < theNFLstat.length; i++) {  
  for (let j= 0; j <= i; j++)
  {
-   var theNFLstat= [
+var theNFLstat= [
      {
       City: "Arizona",
       Name: "Arizona Cardinal",
