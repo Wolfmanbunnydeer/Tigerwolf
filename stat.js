@@ -179,7 +179,7 @@ var theNFLstat= [
       AwayPoint: "87"
     }
   ] 
-   theNFLstat =theNFLstat+ "The Date is "+".<br> The Hometeam is"+ ".<br> The Awayteam is" + ".<br> The Awaypoint is" +".<br>the Homepoint is"+ "."
+   theNFLstat =theNFLstat+ "The Date is "+".<br> The Hometeam is"+ ".<br> The Awayteam is" + ".<br> The Awaypoint is" +".<br>the Homepoint is"+ ".";
 }
 document.getElementById("gameOutput").innerHTML =  theNFLstat; 
 }
