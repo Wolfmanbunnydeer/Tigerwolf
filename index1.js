@@ -251,3 +251,12 @@ var updateStat = {
     awaypoint,
     homepoint
 }
+var updateWinsLoses={
+    tempwin:number,
+    temploses:number,
+}
+function AddGame()
+    div.getElementsByClassName("flex-container").addEventListener("click",AddGame);
+
+    function update()
+    div.getElementsByClassName("flex-container").addEventListener("click",update);   
