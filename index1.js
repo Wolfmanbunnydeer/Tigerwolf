@@ -27,16 +27,19 @@ if (a.innerHTML.toUpperCase().indexOf(button) > -1) {
     a[i].style.display = "";
 } else
     a[i].style.display = "flex";
-var updateNFL = [{
-        City: "Arizona",
-        Name: "Arizona Cardinal",
-        Date: "March 7",
-        AwayTeam: "Falcon",
-        Hometeam: "Cardinals",
-        Homepoint: "78",
-        AwayPoint: "45"
-    },
+   var grid = 
+   {
+   }
+    
+        City: "Arizona";
+        Name: "Arizona Cardinal";
+        Date: "March 7";
+        AwayTeam: "Falcon";
+        Hometeam: "Cardinals";
+        Homepoint: "78";
+        AwayPoint: "45",
     {
+
         City: "Atlanta",
         Name: "Falcons",
         Date: "March 7",
@@ -61,7 +64,7 @@ var updateNFL = [{
         AwayTeam: "Dallas Cowboys",
         Hometeam: "Chicago Bears",
         Homepoint: "78",
-        AwayPoint: "8"
+        AwayPoint: "8",
     },
     {
         City: "Dallas",
@@ -70,7 +73,7 @@ var updateNFL = [{
         AwayTeam: "Chicago Bears",
         Hometeam: "Dallas Cowboys",
         Homepoint: "90",
-        AwayPoint: "87"
+        AwayPoint: "87",
     },
     {
         City: "Detroits",
@@ -79,7 +82,7 @@ var updateNFL = [{
         AwayTeam: "Chicago Bears",
         Hometeam: "Detroit Lions",
         Homepoint: "90",
-        AwayPoint: "87"
+        AwayPoint: "87",
     },
     {
         City: "Jacksonville",
@@ -88,7 +91,7 @@ var updateNFL = [{
         AwayTeam: "Chicago Bears",
         Hometeam: "Jacksonville Jaguars",
         Homepoint: "90",
-        AwayPoint: "87"
+        AwayPoint: "87",
     },
     {
         City: "GreenBay",
@@ -97,7 +100,7 @@ var updateNFL = [{
         AwayTeam: "Detroit Lions",
         Hometeam: "Green Bay Packers",
         Homepoint: "90",
-        AwayPoint: "87"
+        AwayPoint: "87",
     },
     {
         City: " Los Angeles",
@@ -106,7 +109,7 @@ var updateNFL = [{
         AwayTeam: "Detroit Lions",
         Hometeam: " Los Angeles Rams",
         Homepoint: "90",
-        AwayPoint: "87"
+        AwayPoint: "87",
     },
     {
         City: " Los Angeles",
@@ -115,7 +118,7 @@ var updateNFL = [{
         AwayTeam: "Detroit Lions",
         Hometeam: " Los Angeles Rams",
         Homepoint: "90",
-        AwayPoint: "87"
+        AwayPoint: "87",
     },
     {
         City: "Minnesota",
@@ -124,7 +127,7 @@ var updateNFL = [{
         AwayTeam: "Detroit Lions",
         Hometeam: "Minnesota",
         Homepoint: "90",
-        AwayPoint: "87"
+        AwayPoint: "87",
     },
     {
         City: "New Orleans",
@@ -151,7 +154,7 @@ var updateNFL = [{
         AwayTeam: "Detroit Lions",
         Hometeam: "Denver Broncos",
         Homepoint: "90",
-        AwayPoint: "87"
+        AwayPoint: "87",
     },
     {
         City: "Houston ",
@@ -160,7 +163,7 @@ var updateNFL = [{
         AwayTeam: "Detroit Lions",
         Hometeam: "Houston Texan",
         Homepoint: "90",
-        AwayPoint: "87"
+        AwayPoint: "87",
     },
     {
         City: "Miami ",
@@ -169,7 +172,7 @@ var updateNFL = [{
         AwayTeam: "Detroit Lions",
         Hometeam: " Miami Dolphins ",
         Homepoint: "90",
-        AwayPoint: "87"
+        AwayPoint: "87",
     },
     {
         City: "Tennessee",
@@ -178,7 +181,7 @@ var updateNFL = [{
         AwayTeam: "Detroit Lions",
         Hometeam: " Tennessee Titans",
         Homepoint: "90",
-        AwayPoint: "87"
+        AwayPoint: "87",
     },
     {
         City: "Buffalo",
@@ -187,9 +190,18 @@ var updateNFL = [{
         AwayTeam: "Miami Dolphins",
         Hometeam: "Buffalo Bills",
         Homepoint: "90",
-        AwayPoint: "87"
+        AwayPoint: "87",
     }
-]
+
+// The enclosed function also defines a variable called "name".
+City = City;
+Name = Name;
+Date= Date;
+Awayteam = Awayteam;
+Awaypoint = Awaypoint;
+Homepoint = Homepoint;
+Hometeam = Hometeam;
+{}
 var NFL = (temploses, tempwins, date, hometeam, homepoint, awaypoint, awayteam);
 forEach(element => updateNFLteam);
 for (let index = 0; index < array.length; index++)
@@ -242,15 +254,17 @@ NFL.setAwayteam(); // Set team
 NFL.getAwayteam(); // male
 NFL.setAwaypoint(); //Set points//
 NFL.getAwaypoint();
-var updateStat = {
-    tempwins,
-    temploses,
-    date,
-    hometeam,
-    awayteam,
-    awaypoint,
-    homepoint
-}
+var updateNFL = [
+    {
+        tempwins:any,
+        templose:any,
+        date:any,
+        hometeam:any,
+        awayteam:any,
+        awaypoint:any,
+        homepoint:any,
+    },
+]
 var updateWinsLoses={
     tempwin:number,
     temploses:number,
@@ -258,5 +272,5 @@ var updateWinsLoses={
 function AddGame()
     div.getElementsByClassName("flex-container").addEventListener("click",AddGame);
 
-    function update()
+    function Update()
     div.getElementsByClassName("flex-container").addEventListener("click",update);   
