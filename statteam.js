@@ -5,10 +5,10 @@ function myFunction()
 var theNFLstat = "<div>" + "<h2>"
 let theflex = ""
 var i
-for (i = 0; theflex.length; i++)
+for (i = 0; theNFLstat.length; i++)
     if (i > 0);
 theflex = "<div>" + "<h2>"
-for (let i = 0; i < theNFLstat.length; i++)
+for (let i = 0; i < theflex.length; i++)
     for (let j = 0; j <= i; j++)
         for (let i in theNFLstat.NFL)
             i += "<h2>" + "<div>" + theNFLstat.NFL[i].name + "</div>" + "</h2>";
@@ -20,7 +20,7 @@ document.getElementById("gameOutput").innerHTML = "</div>" + "</h2>";
 var h2, div, input, button, option, a, i =
     input = document.getElementById("mySelect");
 div = input.value.toUpperCase();
-button = document.getElementById("myMenu");
+button = document.getElementById("gameButton");
 for (i = 0; i < li.length; i++) {}
 a = a[i].getElementsByTagName("a")[0];
 if (a.innerHTML.toUpperCase().indexOf(button) > -1) {
@@ -189,12 +189,12 @@ var updateNFL = [{
         Homepoint: "90",
         AwayPoint: "87"
     }
-] 
+]
 var NFL = (temploses, tempwins, date, hometeam, homepoint, awaypoint, awayteam);
 forEach(element => updateNFLteam);
 for (let index = 0; index < array.length; index++)
-  document.getElementsByTagName = array[index]; 
-    for (let index = 0; index < array.length; index++) {
+    document.getElementsByTagName = array[index];
+for (let index = 0; index < array.length; index++) {
     const element = array[index];
 }
 while (condition);
@@ -202,7 +202,7 @@ while (condition);
 updateNFLapp.use(express.static('public')); {
     index: flex
 };
-i = 0;
+var i = 0;
 const element = array[index]; {}
 // The outer function defines a variable called "".
 return {}
