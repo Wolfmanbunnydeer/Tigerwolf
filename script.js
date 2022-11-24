@@ -354,18 +354,8 @@ for (i = 0; i < close.length; i++) {
         li.textContent = name;
         return li;
     }
-    // get the ul#NFL
-    const NFL = document.querySelector('#AddGame');
-    // add NFL item
-    function myFunction() {
 
-    }
-    const element = document.getElementById("gameDIV");
-    if (element.getElementByClass == "flex-container") {
-        element.getElementByClass = "flex-container";
-    } else {
-        element.getElementByClass = "flex-container";
-    }
+    // add NFL item
 
     function AddGame() {
         const frame = document.getElementById("myFrame");
@@ -660,3 +650,4 @@ function AddGame()
 
     function Update()
     div.getElementsByClassName("flex-container").addEventListener("click",update); 
+}
