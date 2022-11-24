@@ -578,18 +578,3 @@ for (i = 0; i < close.length; i++) {
         }
         document.getElementById("gameDiv").value = "";
     }
-
-    function UPDATE() {
-        update = setInterval(UPDATE, 60);
-    }
-
-    function DRAW() {
-        window.addEventListener('keydown'),
-            function(e) {
-                keys.keys = (keys.keys || []);
-                keys.keys[e.altKey] = true;
-            }
-        window.addEventListener('keyup', function(e) {}
-            (keys.keys[e.altKey]) = false); {}
-    }
-}
