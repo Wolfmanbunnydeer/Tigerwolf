@@ -191,7 +191,7 @@ var tempdate = document.querySelector("date");
 
     function AddGame() {
       id++;
-      el = document.createElement("li");
+      el = document.createElement("option");
       el.style.listStyle = "none";
       el.id = id;
       list.append(el);
@@ -213,7 +213,7 @@ function AddGame() {
 }
 function GameFunction()
        let theDate =
-           document.getElementbyId("date").value;
+           document.getElementbyId("Date").value;
         let theHometeam =
               document.getElementbyId("Hometeam").value;
    let theawayteam =
@@ -225,8 +225,7 @@ function GameFunction()
 function AddGame(){
        
             var rows = "";
-            var date = document.getElementById("date").value;
-  
+            var date = document.getElementById("Date").value;
             var Hometeam= document.getElementById("Hometeam").value;
             var awayteam = document.getElementById("awayteam").value;   
               var homepoint = document.getElementById("homepoint").value; 
@@ -238,5 +237,21 @@ function AddGame(){
     }
 
     function AddGame(){
+        document.getElementById("game").addgame();
+    }
+function UPDATE(){
+       
+            var grid = "";
+            var date = document.getElementById("Date").value;
+            var Hometeam= document.getElementById("Hometeam").value;
+            var awayteam = document.getElementById("awayteam").value;   
+              var homepoint = document.getElementById("homepoint").value; 
+              var awaypoint = document.getElementById("awaypoint").value;
+           flex += "<div><p>"  +theDate + theHometeam + theawayteam  + thehomepoint +
+               + theawaypoint +".";
+            $(flex-container).appendTo("#gridlayout");       
+    }
+
+    function UPDATE(){
         document.getElementById("game").addgame();
     }
