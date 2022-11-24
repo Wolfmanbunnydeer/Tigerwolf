@@ -1,6 +1,6 @@
-
 document.getElementById("gameButton").addEventListener("click", myFunction);
-
+document.getElementById("addbtn").addEventListener("click", myFunction);
+document.getElementById("updatebtn").addEventListener("click", myFunction);
 function UPDATE() {
 let theflex = ""
 var i
@@ -179,7 +179,8 @@ var theNFLstat= [
       AwayPoint: "87"
     }
   ] 
-   theNFLstat =theNFLstat+ "The Date is "+".<br> The Hometeam is"+ ".<br> The Awayteam is" + ".<br> The Awaypoint is" +".<br>the Homepoint is"+ ".";
+   theNFLstat =theNFLstat+ "The Date is "+".<br> The Hometeam is"+ ".<br> The Awayteam is" + ".<br> The Awaypoint is"
+    +".<br>the Homepoint is"+ ".";
 }
 document.getElementById("gameOutput").innerHTML =  theNFLstat; 
 }
@@ -194,8 +195,7 @@ let MyArray  = document.getElementById("gameDiv").value;
   MyArray+="&myArray="+MyArray[i];
 }
  function myFunction()
- var url= url.open("https://wolfmanbunnydeer.github.io/NFLgames-team3"); 
-
+var updateButton = div.createElement("flex-container");
   var flex = document.createElement("mySelect");
 
   var StatinputValue = document.getElementById("mySelect").value;
