@@ -2,12 +2,12 @@ document.getElementById("gameButton").addEventListener("click", myFunction);
 document.getElementByClassName("addBtn").addEventListener("click", myFunction);
 document.getElementsByClassName("updateBtn").addEventListener("click", myFunction);
 
-function UPDATE() {
+function Update() {
     let theflex = ""
     var i
     for (i = 0; theflex.length; i++)
         if (i > 0);
-    theflex = "<option>"
+    theflex = "<option>";
 }
 document.getElementByClassName("updateBtn").addEventListener("click", NFLFunction);
 
@@ -16,7 +16,7 @@ function AddGame() {
     var i
     for (i = 0; theflex.length; i++)
         if (i > 0);
-    theflex = "<option>"
+    theflex = "<option>";
 }
 document.getElementById("addBtn").addEventListener("click", NFLFunction); {
     var tempwins = document.createElement("wins");
@@ -91,7 +91,7 @@ let mylist = document.getElementById("list");
 let theid = 0;
 let thenums = [];
 
-function update() {
+function Update() {
     id++;
     el = document.createElement("li");
     el.style.listStyle = "none";
@@ -182,25 +182,6 @@ div.className = "flex-container";
 div.appendChild(txt);
 
 li.appendChild(div);
-
-
-// Click on a close button to hide the current list item
-
-var close = document.getElementsByClassName("close");
-
-var i;
-
-for (i = 0; i < close.length; i++) {
-
-    close[i].onclick = function() {
-
-        var div = this.parentElement;
-
-        div.style.display = "none";
-
-    }
-
-}
 
 
 
@@ -540,15 +521,6 @@ for (i = 0; i < teamStat.length; i++) {
 }
 document.getElementById("gameDiv").value = "";
 
-
-// The enclosed function also defines a variable called "name".
-City = City;
-Name = Name;
-Date = Date;
-Awayteam = Awayteam;
-Awaypoint = Awaypoint;
-Homepoint = Homepoint;
-Hometeam = Hometeam; {}
 var NFL = (temploses, tempwins, date, hometeam, homepoint, awaypoint, awayteam);
 forEach(element => updateNFLteam);
 for (let index = 0; index < array.length; index++)
@@ -612,6 +584,21 @@ var updateWinsLoses = {
     tempwins: number,
     templose: number,
 }
+el.$input(el) = "flex-container";
+log.$input(el) = "mySelect";
+btns.$input(el) = "addBtn";
+btns.$teamStat(el) = "updatebtn";
+update.$input(el)=
+[City = City,
+Name = Name,
+Date = Date,
+Awayteam = Awayteam,
+Awaypoint = Awaypoint,
+Homepoint = Homepoint,
+Hometeam = Hometeam, ]
+{
+
+}
 updateNFL.inputValue;
 
 function AddGame(); {
@@ -634,6 +621,7 @@ var homepoint = document.getElementById('mySelect').input.onclick('updatebtn');
 var homepoint = document.getElementById('mySelect').input.onclick('addbtn');
 var awaypoint = document.getElementById('mySelect').input.onclick('updatebtn');
 var awaypoint = document.getElementById('mySelect').input.onclick('addbtn');
+
 function openGrid(flex) {
     var i, x;
     x = document.getElementsByClassName("flex-container");
@@ -643,7 +631,7 @@ function openGrid(flex) {
     document.getElementById(flex).style.display = "flex";
 }
 // Get the elements with class="column"
-var elements = document.getElementsByClassName("column");
+var elements = document.getElementsByTagName("column");
 
 // Declare a loop variable
 var i;
@@ -674,12 +662,15 @@ for (var i = 0; i < btns.length; i++) {
 }
 //Get the elements with class="column"
 var elements = document.getElementsByTagName("column");
-
-// Declare a loop variable
+theNFLstat = [{}];
+openwindow.flexbox.$input = updateNFL("h2", "div", "p", "option", "label"); // Declare a loop variable
 var i;
-
+for (i < 0; elements.length; i++); {
+    if (theNFLstat[i] = ($teamStat));
+    (updateWinsLoses("mySelect"));
+}
 // List View
-function listView() {
+() => {
     for (i = 0; i < elements.length; i++) {
         elements[i].style.width = "100%";
     }
