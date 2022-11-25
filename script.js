@@ -177,35 +177,11 @@ document.getElementByClassName("addBtn").addEventListener("click", myFunction);
 document.getElementsByClassName("updateBtn").addEventListener("click", myFunction);
 
 function AddGame(); {
-    div.getElementsByClassName("flex-container").addEventListener("click", AddGame);
-
-    function Update();
-    div.getElementsByClassName("flex-container").addEventListener("click", update);
+    div.getElementsByClassName("flex-container").addEventListener("click", AddGameFunction);
 }
-// The outer function defines a variable called "".
-return {}
-setName(tempwins)
-return {}
-setName(temploses)
-return {}
-setName(date)
-return {}
-setName(awayteam)
-return {}
-setName(awaypoint)
-return {}
-setName(hometeam)
-return {}
-setName(homepoint)
-return {}
-// The enclosed function also defines a variable called "name".
-tempwins = tempwins;
-temploses = temploses;
-date = date;
-awayteam = awayteam;
-awaypoint = awaypoint;
-homepoint = homepoint;
-hometeam = hometeam;
+    function Update();{
+    div.getElementsByClassName("flex-container").addEventListener("click", UpdateFunction);
+}
 var updateNFL = [{
     tempwins: any,
     templose: any,
@@ -219,28 +195,6 @@ var updateWinsLoses = {
     tempwins: number,
     templose: number,
 }
-el.$input(el) = "flex-container";
-log.$input(el) = "mySelect";
-btns.$input(el) = "addBtn";
-btns.$teamStat(el) = "updatebtn";
-update.$input(el) = "input";
-updateNFL.inputValue;
-
-var tempwins = document.getElementById('mySelect').input.onclick('addbtn');
-var tempwins = document.getElementById('mySelect').input.onclick('updatebtn');
-var templose = document.getElementById('mySelect').input.onclick('updatebtn');
-var templose = document.getElementById('mySelect').input.onclick('addbtn');
-var date = document.getElementById('mySelect').input.onclick('updatebtn');
-var date = document.getElementById('mySelect').input.onclick('addbtn');
-var hometeam = document.getElementById('mySelect').input.onclick('updatebtn');
-var hometeam = document.getElementById('mySelect').input.onclick('addbtn');
-var awayteam = document.getElementById('mySelect').input.onclick('updatebtn');
-var awayteam = document.getElementById('mySelect').input.onclick('addbtn');
-var homepoint = document.getElementById('mySelect').input.onclick('updatebtn');
-var homepoint = document.getElementById('mySelect').input.onclick('addbtn');
-var awaypoint = document.getElementById('mySelect').input.onclick('updatebtn');
-var awaypoint = document.getElementById('mySelect').input.onclick('addbtn');
-
 function Update() {
     let theflex = ""
     var i
@@ -293,7 +247,7 @@ function AddGame() {
     input.value = "";
     input.focus();
 }
-document.getElementById("addbtn")
+document.getElementById("addBtn")
 
 function AddGame() {
     id++;
@@ -310,7 +264,7 @@ function AddGame() {
     input.focus();
 }
 
-function update() {
+function Update() {
     id++;
     el = document.createElement("li");
     el.style.listStyle = "none";
@@ -323,7 +277,7 @@ function update() {
     input.value = "";
     input.focus();
 }
-document.getElementById("updatebtn");
+document.getElementById("updateBtn");
 let mylist = document.getElementById("list");
 let theid = 0;
 let thenums = [];
@@ -349,13 +303,12 @@ function Update() {
 //   let dest = document.querySelector("li");
 // }
 
-function deleteItem() {
-    el.remove();
-    console.log("Element:" + el + " removed")
+function Update() {
+    el.update();
+    console.log("Wins:" + el + " update")
+       console.log("Loses:" + el + " update")    
     input.focus();
 }
-
-
 // Create a "close" button and append it to each list item
 
 var myNodelist = document.getElementsByTagName("LI");
@@ -436,11 +389,9 @@ list.addEventListener('click', function(ev) {
 
 }, false);
 
-
-
 // Create a new list item when clicking on the "Add" button
 
-function newElement() {}
+function AddGame() {}
 var li = document.createElement("li");
 
 var inputValue = document.getElementById("item").value;
@@ -451,7 +402,7 @@ li.appendChild(t);
 
 if (inputValue === '') {
 
-    openurl("https://wolfmanbunnydeer.github.io/NFLgames-team3/");
+    openurl("https://raw.githubusercontent.com/Wolfmanbunnydeer/NFLstatsteam/Wolfmanbunnydeer/array.js");
 
 } else {
 
@@ -460,14 +411,6 @@ if (inputValue === '') {
 }
 
 document.getElementById("listBox").value = "";
-
-
-
-for (i = 0; i < close.length; i++) {}
-close[i].onclick = function() {}
-var div = this.parentElement;
-
-div.style.display = "none";
 
 var today = new Date();
 var dd = String(today.getDate()).padStart(2, '0');
@@ -502,39 +445,28 @@ function myFunction() {
     // Append the p element to the body:
     document.getElementById("gameDIV").innerHTML(para);
 }
-
 function createNFLItem(name) {
     let li = document.createElement('li');
     li.textContent = name;
     return li;
 }
-
-// add NFL item
-
-function AddGame() {
-    const frame = document.getElementById("myFrame");
-    const h2 = frame.contentWindow.document.getElementsByTagName("H2")[0];
-    const node = document.importNode(h2, true);
-    document.body.appendChild(node);
-}
 document.getElementById("gameButton").addEventListener("click", myFunction);
 
-function UPDATE() {
+function Update() {
     let theflex = ""
     var i
     for (i = 0; theflex.length; i++)
         if (i > 0);
     theflex = "<option>"
 }
-document.getElementById("gameButton").addEventListener("click", NFLFunction);
+document.getElementById("gameButton").addEventListener("click", UpdateFunction);
 
-function NFLFunction() {
+function Update() {
     var theNFLstat = ""
     for (let i = 0; i < theNFLstat.length; i++) {
         for (let j = 0; j <= i; j++) {
 
-            theNFLstat = theNFLstat + "The Date is " + ".<br> The Hometeam is" +
-                ".<br> The Awayteam is" + ".<br> The Awaypoint is" + ".<br>the Homepoint is" + ".";
+            theNFLstat = theNFLstat + "<br>" +"<h2>" +"<div>";
         }
         document.getElementById("gameOutput").innerHTML = theNFLstat;
     }
@@ -574,65 +506,54 @@ updateNFLapp.use(express.static('public')); {
 };
 var i = 0;
 const element = array[index]; {}
-
-
-function openGrid(flex) {
-    var i, x;
-    x = document.getElementsByClassName("flex-container");
-    for (i = 0; i < x.length; i++) {
-        x[i].style.display = "wrap";
-    }
-    document.getElementById(flex).style.display = "flex";
 }
-// Get the elements with class="column"
-var elements = document.getElementsByTagName("column");
+//Create element const
+const grid = document.getElementById('grid');
+const flexbox = document.createElement('flexbox');
+let theNFLstat = [];
 
-// Declare a loop variable
-var i;
+flexBox = flexBox.addEventListener('keyup', (e) => {
+    const searchString = e.target.value.toLowerCase();
 
-// List View
-function listView() {
-    for (i = 0; i < elements.length; i++) {
-        elements[i].style.width = "100%";
-    }
-}
-
-// Grid View
-function gridView() {
-    for (i = 0; i < elements.length; i++) {
-        elements[i].style.width = "50%";
-    }
-}
-
-/* Optional: Add active class to the current button (highlight it) */
-var container = document.getElementByClassName("flex-container");
-var btns = container.getElementsByClassName("flex-container");
-for (var i = 0; i < btns.length; i++) {
-    btns[i].addEventListener("click", function() {
-        var current = document.getElementsByClassName("active");
-        current[0].className = current[0].className.replace(" active", "");
-        this.className += " active";
+    const filteredNFL = theNFLstat.filter((character) => {
+        return (
+            character.name.toLowerCase().includes(searchString) ||
+            character.house.toLowerCase().includes(searchString)
+        );
     });
-}
-//Get the elements with class="column"
-var elements = document.getElementsByTagName("column");
-theNFLstat = [{}];
-openwindow.flexbox.$input = updateNFL("h2", "div", "p", "option", "label"); // Declare a loop variable
-var i;
-for (i < 0; elements.length; i++); {
-    if (theNFLstat[i] = ($teamStat));
-    (updateWinsLoses("mySelect"));
-}
-// List View
-function listView();{
-    for (i = 0; i < elements.length; i++) {
-        elements[i].style.width = "100%";
-    }
-}
+    displayNFL(filteredNFL);
+});
 
-// Grid View
-function gridView() {
-    for (i = 0; i < elements.length; i++) {
-        elements[i].style.width = "50%";
+const loadNFLstat = async() => {
+    try {
+        const res = await fetch('https://raw.githubusercontent.com/Wolfmanbunnydeer/NFLstatsteam/Wolfmanbunnydeer/array.js');
+        theNFLstat = await res.json();
+        displayNFL(theNFLstat);
+    } catch (err) {
+        console.error(err);
     }
-}
+};
+
+const displayNFL = (NFL) => {
+    const htmlString = NFL
+        .map((character) => {
+            return `
+            <div class ="flex-container">
+            <select id="mySelect">
+                <h2>${NFL.name}</h2>
+                <p>Wins: ${NFL.wins}</p>
+                <p>Loses: ${NFL.loses}</p>
+                <p>Date: ${NFL.Date}</p>
+                <p>Hometeam: ${NFL.Hometeam}</p>
+                <p>Homepoint: ${NFL.Date}</p>
+                <p>Awayteam: ${NFL.Date}</p>
+                <p>Awaypoint: ${NFL.Date}</p>
+                <img src="${NFL.image}"></img>
+            </li>
+        `;
+        })
+        .join('');
+    NFLstatList.innerHTML = htmlString;
+};
+
+loadNFLstat();
