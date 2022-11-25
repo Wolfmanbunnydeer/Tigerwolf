@@ -6,176 +6,249 @@ var theNFLstat = [{
         Hometeam: String,
         Homepoint: String,
         AwayPoint: String,
-    },
+    }, ]
+    [{
+            City: "Arizona",
+            Name: "Arizona Cardinal",
+            Date: "March 7",
+            AwayTeam: "Falcon",
+            Hometeam: "Cardinals",
+            Homepoint: "78",
+            AwayPoint: "45"
+        },
+        {
+            City: "Atlanta",
+            Name: "Falcons",
+            Date: "March 7",
+            AwayTeam: "Minnesota Vikings",
+            Hometeam: "Falcons",
+            Homepoint: "23",
+            AwayPoint: "8"
+        },
+        {
+            City: "N/S Carolinas",
+            Name: "Carolina Panther",
+            Date: "March 7",
+            AwayTeam: "Minnesota Vikings",
+            Hometeam: "Panther",
+            Homepoint: "45",
+            AwayPoint: "8"
+        },
+        {
+            City: "Chicago",
+            Name: "Chicago Bears",
+            Date: "March 7",
+            AwayTeam: "Dallas Cowboys",
+            Hometeam: "Chicago Bears",
+            Homepoint: "78",
+            AwayPoint: "8"
+        },
+        {
+            City: "Dallas",
+            Name: "Dallas Cowboys",
+            Date: "March 7",
+            AwayTeam: "Chicago Bears",
+            Hometeam: "Dallas Cowboys",
+            Homepoint: "90",
+            AwayPoint: "87"
+        },
+        {
+            City: "Detroits",
+            Name: "Detroit Lions",
+            Date: "March 7",
+            AwayTeam: "Chicago Bears",
+            Hometeam: "Detroit Lions",
+            Homepoint: "90",
+            AwayPoint: "87"
+        },
+        {
+            City: "Jacksonville",
+            Name: "Jacksonville Jaguars",
+            Date: "March 7",
+            AwayTeam: "Chicago Bears",
+            Hometeam: "Jacksonville Jaguars",
+            Homepoint: "90",
+            AwayPoint: "87"
+        },
 
-    {
-        City: "Arizona",
-        Name: "Arizona Cardinal",
-        Date: "March 7",
-        AwayTeam: "Falcon",
-        Hometeam: "Cardinals",
-        Homepoint: "78",
-        AwayPoint: "45"
-    },
-    {
-        City: "Atlanta",
-        Name: "Falcons",
-        Date: "March 7",
-        AwayTeam: "Minnesota Vikings",
-        Hometeam: "Falcons",
-        Homepoint: "23",
-        AwayPoint: "8"
-    },
-    {
-        City: "N/S Carolinas",
-        Name: "Carolina Panther",
-        Date: "March 7",
-        AwayTeam: "Minnesota Vikings",
-        Hometeam: "Panther",
-        Homepoint: "45",
-        AwayPoint: "8"
-    },
-    {
-        City: "Chicago",
-        Name: "Chicago Bears",
-        Date: "March 7",
-        AwayTeam: "Dallas Cowboys",
-        Hometeam: "Chicago Bears",
-        Homepoint: "78",
-        AwayPoint: "8"
-    },
-    {
-        City: "Dallas",
-        Name: "Dallas Cowboys",
-        Date: "March 7",
-        AwayTeam: "Chicago Bears",
-        Hometeam: "Dallas Cowboys",
-        Homepoint: "90",
-        AwayPoint: "87"
-    },
-    {
-        City: "Detroits",
-        Name: "Detroit Lions",
-        Date: "March 7",
-        AwayTeam: "Chicago Bears",
-        Hometeam: "Detroit Lions",
-        Homepoint: "90",
-        AwayPoint: "87"
-    },
-    {
-        City: "Jacksonville",
-        Name: "Jacksonville Jaguars",
-        Date: "March 7",
-        AwayTeam: "Chicago Bears",
-        Hometeam: "Jacksonville Jaguars",
-        Homepoint: "90",
-        AwayPoint: "87"
-    },
+        {
+            City: "GreenBay",
+            Name: "Green Bay Packers",
+            Date: "March 7",
+            AwayTeam: "Detroit Lions",
+            Hometeam: "Green Bay Packers",
+            Homepoint: "90",
+            AwayPoint: "87"
+        },
 
-    {
-        City: "GreenBay",
-        Name: "Green Bay Packers",
-        Date: "March 7",
-        AwayTeam: "Detroit Lions",
-        Hometeam: "Green Bay Packers",
-        Homepoint: "90",
-        AwayPoint: "87"
-    },
-
-    {
-        City: " Los Angeles",
-        Name: " Los Angeles Rams",
-        Date: "March 7",
-        AwayTeam: "Detroit Lions",
-        Hometeam: " Los Angeles Rams",
-        Homepoint: "90",
-        AwayPoint: "87"
-    },
-    {
-        City: " Los Angeles",
-        Name: " Los Angeles Rams",
-        Date: "March 7",
-        AwayTeam: "Detroit Lions",
-        Hometeam: " Los Angeles Rams",
-        Homepoint: "90",
-        AwayPoint: "87"
-    },
-    {
-        City: "Minnesota",
-        Name: "Minnesota Vikings",
-        Date: "March 7",
-        AwayTeam: "Detroit Lions",
-        Hometeam: "Minnesota",
-        Homepoint: "90",
-        AwayPoint: "87"
-    },
-    {
-        City: "New Orleans",
-        Name: "New Orleans Saints",
-        Date: "March 7",
-        AwayTeam: "Detroit Lions",
-        Hometeam: "New Orleans Saints",
-        Homepoint: "90",
-        AwayPoint: "87"
-    },
-    {
-        City: "New York",
-        Name: "New York Giants",
-        Date: "March 7",
-        AwayTeam: "Detroit Lions",
-        Hometeam: "New York Giants",
-        Homepoint: "90",
-        AwayPoint: "87"
-    },
-    {
-        City: "Denver",
-        Name: "Denver Broncos",
-        Date: "March 7",
-        AwayTeam: "Detroit Lions",
-        Hometeam: "Denver Broncos",
-        Homepoint: "90",
-        AwayPoint: "87"
-    },
-    {
-        City: "Houston ",
-        Name: "Houston Texan",
-        Date: "March 7",
-        AwayTeam: "Detroit Lions",
-        Hometeam: "Houston Texan",
-        Homepoint: "90",
-        AwayPoint: "87"
-    },
-    {
-        City: "Miami ",
-        Name: " Miami Dolphins ",
-        Date: "March 7",
-        AwayTeam: "Detroit Lions",
-        Hometeam: " Miami Dolphins ",
-        Homepoint: "90",
-        AwayPoint: "87"
-    },
-    {
-        City: "Tennessee",
-        Name: " Tennessee Titans",
-        Date: "March 7",
-        AwayTeam: "Detroit Lions",
-        Hometeam: " Tennessee Titans",
-        Homepoint: "90",
-        AwayPoint: "87"
-    },
-    {
-        City: "Buffalo",
-        Name: " Buffalo Bills",
-        Date: "March 7",
-        AwayTeam: "Miami Dolphins",
-        Hometeam: "Buffalo Bills",
-        Homepoint: "90",
-        AwayPoint: "87"
-    }
-]
+        {
+            City: " Los Angeles",
+            Name: " Los Angeles Rams",
+            Date: "March 7",
+            AwayTeam: "Detroit Lions",
+            Hometeam: " Los Angeles Rams",
+            Homepoint: "90",
+            AwayPoint: "87"
+        },
+        {
+            City: " Los Angeles",
+            Name: " Los Angeles Rams",
+            Date: "March 7",
+            AwayTeam: "Detroit Lions",
+            Hometeam: " Los Angeles Rams",
+            Homepoint: "90",
+            AwayPoint: "87"
+        },
+        {
+            City: "Minnesota",
+            Name: "Minnesota Vikings",
+            Date: "March 7",
+            AwayTeam: "Detroit Lions",
+            Hometeam: "Minnesota",
+            Homepoint: "90",
+            AwayPoint: "87"
+        },
+        {
+            City: "New Orleans",
+            Name: "New Orleans Saints",
+            Date: "March 7",
+            AwayTeam: "Detroit Lions",
+            Hometeam: "New Orleans Saints",
+            Homepoint: "90",
+            AwayPoint: "87"
+        },
+        {
+            City: "New York",
+            Name: "New York Giants",
+            Date: "March 7",
+            AwayTeam: "Detroit Lions",
+            Hometeam: "New York Giants",
+            Homepoint: "90",
+            AwayPoint: "87"
+        },
+        {
+            City: "Denver",
+            Name: "Denver Broncos",
+            Date: "March 7",
+            AwayTeam: "Detroit Lions",
+            Hometeam: "Denver Broncos",
+            Homepoint: "90",
+            AwayPoint: "87"
+        },
+        {
+            City: "Houston ",
+            Name: "Houston Texan",
+            Date: "March 7",
+            AwayTeam: "Detroit Lions",
+            Hometeam: "Houston Texan",
+            Homepoint: "90",
+            AwayPoint: "87"
+        },
+        {
+            City: "Miami ",
+            Name: " Miami Dolphins ",
+            Date: "March 7",
+            AwayTeam: "Detroit Lions",
+            Hometeam: " Miami Dolphins ",
+            Homepoint: "90",
+            AwayPoint: "87"
+        },
+        {
+            City: "Tennessee",
+            Name: " Tennessee Titans",
+            Date: "March 7",
+            AwayTeam: "Detroit Lions",
+            Hometeam: " Tennessee Titans",
+            Homepoint: "90",
+            AwayPoint: "87"
+        },
+        {
+            City: "Buffalo",
+            Name: " Buffalo Bills",
+            Date: "March 7",
+            AwayTeam: "Miami Dolphins",
+            Hometeam: "Buffalo Bills",
+            Homepoint: "90",
+            AwayPoint: "87"
+        }
+    ]
 document.getElementById("gameButton").addEventListener("click", myFunction);
 document.getElementByClassName("addBtn").addEventListener("click", myFunction);
 document.getElementsByClassName("updateBtn").addEventListener("click", myFunction);
+
+function AddGame(); {
+    div.getElementsByClassName("flex-container").addEventListener("click", AddGame);
+
+    function Update();
+    div.getElementsByClassName("flex-container").addEventListener("click", update);
+}
+// The outer function defines a variable called "".
+return {}
+setName(tempwins)
+return {}
+setName(temploses)
+return {}
+setName(date)
+return {}
+setName(awayteam)
+return {}
+setName(awaypoint)
+return {}
+setName(hometeam)
+return {}
+setName(homepoint)
+return {}
+// The enclosed function also defines a variable called "name".
+tempwins = tempwins;
+temploses = temploses;
+date = date;
+awayteam = awayteam;
+awaypoint = awaypoint;
+homepoint = homepoint;
+hometeam = hometeam;
+var updateNFL = [{
+    tempwins: any,
+    templose: any,
+    date: any,
+    hometeam: any,
+    awayteam: any,
+    awaypoint: any,
+    homepoint: any,
+}, ]
+var updateWinsLoses = {
+    tempwins: number,
+    templose: number,
+}
+el.$input(el) = "flex-container";
+log.$input(el) = "mySelect";
+btns.$input(el) = "addBtn";
+btns.$teamStat(el) = "updatebtn";
+update.$input(el) = [City = City,
+    Name = Name,
+    Date = Date,
+    Awayteam = Awayteam,
+    Awaypoint = Awaypoint,
+    Homepoint = Homepoint,
+    Hometeam = Hometeam,
+]; {
+
+}
+updateNFL.inputValue;
+
+var tempwins = document.getElementById('mySelect').input.onclick('addbtn');
+var tempwins = document.getElementById('mySelect').input.onclick('updatebtn');
+var templose = document.getElementById('mySelect').input.onclick('updatebtn');
+var templose = document.getElementById('mySelect').input.onclick('addbtn');
+var date = document.getElementById('mySelect').input.onclick('updatebtn');
+var date = document.getElementById('mySelect').input.onclick('addbtn');
+var hometeam = document.getElementById('mySelect').input.onclick('updatebtn');
+var hometeam = document.getElementById('mySelect').input.onclick('addbtn');
+var awayteam = document.getElementById('mySelect').input.onclick('updatebtn');
+var awayteam = document.getElementById('mySelect').input.onclick('addbtn');
+var homepoint = document.getElementById('mySelect').input.onclick('updatebtn');
+var homepoint = document.getElementById('mySelect').input.onclick('addbtn');
+var awaypoint = document.getElementById('mySelect').input.onclick('updatebtn');
+var awaypoint = document.getElementById('mySelect').input.onclick('addbtn');
 
 function Update() {
     let theflex = ""
@@ -427,32 +500,10 @@ function myFunction() {
     document.getElementById("gameOutput").innerHTML = txt;
 }
 
-let myPromise = new Promise(function(myResolve, myReject) {
-    let req = new XMLHttpRequest();
-    req.open('GET', "https://wolfmanbunnydeer.github.io/NFLgames-team3/");
-    req.onload = function() {
-        if (req.status == 200) {
-            myResolve(req.response);
-        } else {
-            myFunction
-                ("url:https://wolfmanbunnydeer.github.io/NFLgames-team3/");
-        }
-    };
-    req.send();
-});
-
-myPromise.then(
-    function(value) { myDisplayer(value); },
-    function(error) { myDisplayer(error); }
-);
-
 function myFunction() {
 
     // Create a p element:
-    const para = document.createElement("p");
-
-    // Create a text node:
-    const node = document.createTextNode("This is a paragraph.");
+    const para = document.createElement("flex");
 
     // Append text node to the p element:
     para.appendChild(node);
@@ -532,91 +583,7 @@ updateNFLapp.use(express.static('public')); {
 };
 var i = 0;
 const element = array[index]; {}
-// The outer function defines a variable called "".
-return {}
-setName(tempwins)
-return {}
-setName(temploses)
-return {}
-setName(date)
-return {}
-setName(awayteam)
-return {}
-setName(awaypoint)
-return {}
-setName(hometeam)
-return {}
-setName(homepoint)
-return {}
-// The enclosed function also defines a variable called "name".
-tempwins = tempwins;
-temploses = temploses;
-date = date;
-awayteam = awayteam;
-awaypoint = awaypoint;
-homepoint = homepoint;
-hometeam = hometeam;
-// How do we access the "name" defined by the outer function?
-const NFL = updateNFL('team');
-NFL.tempwins();
-NFL.temploses();
-NFL.getDate(); // Set date
-NFL.setDate('mm/dd/yyyy');
-NFL.setHometeam('male');
-NFL.getHometeam(); // male
-NFL.setAwayteam(); // Set team
-NFL.getAwayteam(); // male
-NFL.setAwaypoint(); //Set points//
-NFL.getAwaypoint();
-var updateNFL = [{
-    tempwins: any,
-    templose: any,
-    date: any,
-    hometeam: any,
-    awayteam: any,
-    awaypoint: any,
-    homepoint: any,
-}, ]
-var updateWinsLoses = {
-    tempwins: number,
-    templose: number,
-}
-el.$input(el) = "flex-container";
-log.$input(el) = "mySelect";
-btns.$input(el) = "addBtn";
-btns.$teamStat(el) = "updatebtn";
-update.$input(el) = [City = City,
-    Name = Name,
-    Date = Date,
-    Awayteam = Awayteam,
-    Awaypoint = Awaypoint,
-    Homepoint = Homepoint,
-    Hometeam = Hometeam,
-]; {
 
-}
-updateNFL.inputValue;
-
-function AddGame(); {
-    div.getElementsByClassName("flex-container").addEventListener("click", AddGame);
-
-    function Update();
-    div.getElementsByClassName("flex-container").addEventListener("click", update);
-}
-var tempwins = document.getElementById('mySelect').input.onclick('addbtn');
-var tempwins = document.getElementById('mySelect').input.onclick('updatebtn');
-var templose = document.getElementById('mySelect').input.onclick('updatebtn');
-var templose = document.getElementById('mySelect').input.onclick('addbtn');
-var date = document.getElementById('mySelect').input.onclick('updatebtn');
-var date = document.getElementById('mySelect').input.onclick('addbtn');
-var hometeam = document.getElementById('mySelect').input.onclick('updatebtn');
-var hometeam = document.getElementById('mySelect').input.onclick('addbtn');
-var awayteam = document.getElementById('mySelect').input.onclick('updatebtn');
-var awayteam = document.getElementById('mySelect').input.onclick('addbtn');
-var homepoint = document.getElementById('mySelect').input.onclick('updatebtn');
-var homepoint = document.getElementById('mySelect').input.onclick('addbtn');
-var awaypoint = document.getElementById('mySelect').input.onclick('updatebtn');
-var awaypoint = document.getElementById('mySelect').input.onclick('addbtn');
 
 function openGrid(flex) {
     var i, x;
