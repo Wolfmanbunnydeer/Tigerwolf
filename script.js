@@ -126,12 +126,14 @@ var myNodelist = document.getElementsByTagName("LI");
 var i;
 for (i = 0; i < flex - container.length; i++); {}
 flex - container[i].onclick;
- function AddGame(); {
+
+function AddGame(); {
 
     var div = this.parentElement;
 
     div.style.display = "flex";
-    div.style.flex - direction; "column";
+    div.style.flex - direction;
+    "column";
 }
 
 
@@ -574,8 +576,7 @@ return {}
 setName(awaypoint)
 return {}
 setName(hometeam)
-return {
-}
+return {}
 setName(homepoint)
 return {}
 // The enclosed function also defines a variable called "name".
@@ -608,9 +609,10 @@ var updateNFL = [{
     homepoint: any,
 }, ]
 var updateWinsLoses = {
-    tempwin: number,
-    temploses: number,
+    tempwins: number,
+    templose: number,
 }
+updateNFL.inputValue;
 
 function AddGame(); {
     div.getElementsByClassName("flex-container").addEventListener("click", AddGame);
@@ -618,3 +620,17 @@ function AddGame(); {
     function Update();
     div.getElementsByClassName("flex-container").addEventListener("click", update);
 }
+var tempwins = document.getElementById('mySelect').input.onclick('addbtn');
+var tempwins = document.getElementById('mySelect').input.onclick('updatebtn');
+var templose = document.getElementById('mySelect').input.onclick('updatebtn');
+var templose = document.getElementById('mySelect').input.onclick('addbtn');
+var date = document.getElementById('mySelect').input.onclick('updatebtn');
+var date = document.getElementById('mySelect').input.onclick('addbtn');
+var hometeam = document.getElementById('mySelect').input.onclick('updatebtn');
+var hometeam = document.getElementById('mySelect').input.onclick('addbtn');
+var awayteam = document.getElementById('mySelect').input.onclick('updatebtn');
+var awayteam = document.getElementById('mySelect').input.onclick('addbtn');
+var homepoint = document.getElementById('mySelect').input.onclick('updatebtn');
+var homepoint = document.getElementById('mySelect').input.onclick('addbtn');
+var awaypoint = document.getElementById('mySelect').input.onclick('updatebtn');
+var awaypoint = document.getElementById('mySelect').input.onclick('addbtn');
