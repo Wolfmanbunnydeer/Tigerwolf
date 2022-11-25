@@ -634,3 +634,60 @@ var homepoint = document.getElementById('mySelect').input.onclick('updatebtn');
 var homepoint = document.getElementById('mySelect').input.onclick('addbtn');
 var awaypoint = document.getElementById('mySelect').input.onclick('updatebtn');
 var awaypoint = document.getElementById('mySelect').input.onclick('addbtn');
+function openGrid(flex) {
+    var i, x;
+    x = document.getElementsByClassName("flex-container");
+    for (i = 0; i < x.length; i++) {
+        x[i].style.display = "wrap";
+    }
+    document.getElementById(flex).style.display = "flex";
+}
+// Get the elements with class="column"
+var elements = document.getElementsByClassName("column");
+
+// Declare a loop variable
+var i;
+
+// List View
+function listView() {
+    for (i = 0; i < elements.length; i++) {
+        elements[i].style.width = "100%";
+    }
+}
+
+// Grid View
+function gridView() {
+    for (i = 0; i < elements.length; i++) {
+        elements[i].style.width = "50%";
+    }
+}
+
+/* Optional: Add active class to the current button (highlight it) */
+var container = document.getElementByClassName("flex-container");
+var btns = container.getElementsByClassName("flex-container");
+for (var i = 0; i < btns.length; i++) {
+    btns[i].addEventListener("click", function() {
+        var current = document.getElementsByClassName("active");
+        current[0].className = current[0].className.replace(" active", "");
+        this.className += " active";
+    });
+}
+//Get the elements with class="column"
+var elements = document.getElementsByTagName("column");
+
+// Declare a loop variable
+var i;
+
+// List View
+function listView() {
+    for (i = 0; i < elements.length; i++) {
+        elements[i].style.width = "100%";
+    }
+}
+
+// Grid View
+function gridView() {
+    for (i = 0; i < elements.length; i++) {
+        elements[i].style.width = "50%";
+    }
+}
