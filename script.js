@@ -548,6 +548,9 @@ for (i = 0; i < close.length; i++) {
             }
             document.getElementById("gameOutput").innerHTML = theNFLstat;
         }
+          var flex
+          = document.getElementByTagName("h2","div", "option");
+        }
         var stat =
             document.getElementById("gameButton").addEventListener("click", gameFunction);
 
