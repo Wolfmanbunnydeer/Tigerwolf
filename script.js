@@ -1,3 +1,178 @@
+var theNFLstat = [{
+        City: String,
+        Name: String,
+        Date: String,
+        AwayTeam: String,
+        Hometeam: String,
+        Homepoint: String,
+        AwayPoint: String,
+    },
+
+    {
+        City: "Arizona",
+        Name: "Arizona Cardinal",
+        Date: "March 7",
+        AwayTeam: "Falcon",
+        Hometeam: "Cardinals",
+        Homepoint: "78",
+        AwayPoint: "45"
+    },
+    {
+        City: "Atlanta",
+        Name: "Falcons",
+        Date: "March 7",
+        AwayTeam: "Minnesota Vikings",
+        Hometeam: "Falcons",
+        Homepoint: "23",
+        AwayPoint: "8"
+    },
+    {
+        City: "N/S Carolinas",
+        Name: "Carolina Panther",
+        Date: "March 7",
+        AwayTeam: "Minnesota Vikings",
+        Hometeam: "Panther",
+        Homepoint: "45",
+        AwayPoint: "8"
+    },
+    {
+        City: "Chicago",
+        Name: "Chicago Bears",
+        Date: "March 7",
+        AwayTeam: "Dallas Cowboys",
+        Hometeam: "Chicago Bears",
+        Homepoint: "78",
+        AwayPoint: "8"
+    },
+    {
+        City: "Dallas",
+        Name: "Dallas Cowboys",
+        Date: "March 7",
+        AwayTeam: "Chicago Bears",
+        Hometeam: "Dallas Cowboys",
+        Homepoint: "90",
+        AwayPoint: "87"
+    },
+    {
+        City: "Detroits",
+        Name: "Detroit Lions",
+        Date: "March 7",
+        AwayTeam: "Chicago Bears",
+        Hometeam: "Detroit Lions",
+        Homepoint: "90",
+        AwayPoint: "87"
+    },
+    {
+        City: "Jacksonville",
+        Name: "Jacksonville Jaguars",
+        Date: "March 7",
+        AwayTeam: "Chicago Bears",
+        Hometeam: "Jacksonville Jaguars",
+        Homepoint: "90",
+        AwayPoint: "87"
+    },
+
+    {
+        City: "GreenBay",
+        Name: "Green Bay Packers",
+        Date: "March 7",
+        AwayTeam: "Detroit Lions",
+        Hometeam: "Green Bay Packers",
+        Homepoint: "90",
+        AwayPoint: "87"
+    },
+
+    {
+        City: " Los Angeles",
+        Name: " Los Angeles Rams",
+        Date: "March 7",
+        AwayTeam: "Detroit Lions",
+        Hometeam: " Los Angeles Rams",
+        Homepoint: "90",
+        AwayPoint: "87"
+    },
+    {
+        City: " Los Angeles",
+        Name: " Los Angeles Rams",
+        Date: "March 7",
+        AwayTeam: "Detroit Lions",
+        Hometeam: " Los Angeles Rams",
+        Homepoint: "90",
+        AwayPoint: "87"
+    },
+    {
+        City: "Minnesota",
+        Name: "Minnesota Vikings",
+        Date: "March 7",
+        AwayTeam: "Detroit Lions",
+        Hometeam: "Minnesota",
+        Homepoint: "90",
+        AwayPoint: "87"
+    },
+    {
+        City: "New Orleans",
+        Name: "New Orleans Saints",
+        Date: "March 7",
+        AwayTeam: "Detroit Lions",
+        Hometeam: "New Orleans Saints",
+        Homepoint: "90",
+        AwayPoint: "87"
+    },
+    {
+        City: "New York",
+        Name: "New York Giants",
+        Date: "March 7",
+        AwayTeam: "Detroit Lions",
+        Hometeam: "New York Giants",
+        Homepoint: "90",
+        AwayPoint: "87"
+    },
+    {
+        City: "Denver",
+        Name: "Denver Broncos",
+        Date: "March 7",
+        AwayTeam: "Detroit Lions",
+        Hometeam: "Denver Broncos",
+        Homepoint: "90",
+        AwayPoint: "87"
+    },
+    {
+        City: "Houston ",
+        Name: "Houston Texan",
+        Date: "March 7",
+        AwayTeam: "Detroit Lions",
+        Hometeam: "Houston Texan",
+        Homepoint: "90",
+        AwayPoint: "87"
+    },
+    {
+        City: "Miami ",
+        Name: " Miami Dolphins ",
+        Date: "March 7",
+        AwayTeam: "Detroit Lions",
+        Hometeam: " Miami Dolphins ",
+        Homepoint: "90",
+        AwayPoint: "87"
+    },
+    {
+        City: "Tennessee",
+        Name: " Tennessee Titans",
+        Date: "March 7",
+        AwayTeam: "Detroit Lions",
+        Hometeam: " Tennessee Titans",
+        Homepoint: "90",
+        AwayPoint: "87"
+    },
+    {
+        City: "Buffalo",
+        Name: " Buffalo Bills",
+        Date: "March 7",
+        AwayTeam: "Miami Dolphins",
+        Hometeam: "Buffalo Bills",
+        Homepoint: "90",
+        AwayPoint: "87"
+    }
+]
 document.getElementById("gameButton").addEventListener("click", myFunction);
 document.getElementByClassName("addBtn").addEventListener("click", myFunction);
 document.getElementsByClassName("updateBtn").addEventListener("click", myFunction);
@@ -54,7 +229,7 @@ function AddGame() {
     input.value = "";
     input.focus();
 }
-document.getElementById("Game")
+document.getElementById("addbtn")
 
 function AddGame() {
     id++;
@@ -84,9 +259,7 @@ function update() {
     input.value = "";
     input.focus();
 }
-
-let link;
-document.getElementById("Game");
+document.getElementById("updatebtn");
 let mylist = document.getElementById("list");
 let theid = 0;
 let thenums = [];
@@ -156,7 +329,7 @@ list.addEventListener('click', function(ev) {
 function newElement() {}
 var li = document.createElement("li");
 
-var inputValue = document.getElementById("item").value;
+var inputValue = document.getElementById("listBox").value;
 
 var t = document.createTextNode(inputValue);
 
@@ -166,11 +339,11 @@ if (inputValue === '') {
 
 } else {
 
-    document.getElementById("list").appendChild(li);
+    document.getElementById("listBox").appendChild(li);
 
 }
 
-document.getElementById("item").value = "";
+document.getElementById("listBox").value = "";
 
 
 var div = document.createElement("DIV");
@@ -214,7 +387,7 @@ li.appendChild(t);
 
 if (inputValue === '') {
 
-    alert("This field cannot be empty!");
+    openurl("https://wolfmanbunnydeer.github.io/NFLgames-team3/");
 
 } else {
 
@@ -222,19 +395,7 @@ if (inputValue === '') {
 
 }
 
-document.getElementById("item").value = "";
-
-
-
-var span = document.createElement("SPAN");
-
-var txt = document.createTextNode("\u00D7");
-
-span.className = "close";
-
-span.appendChild(txt);
-
-li.appendChild(span);
+document.getElementById("listBox").value = "";
 
 
 
@@ -329,171 +490,7 @@ function NFLFunction() {
     var theNFLstat = ""
     for (let i = 0; i < theNFLstat.length; i++) {
         for (let j = 0; j <= i; j++) {
-            var theNFLstat = [{
-                    City: "Arizona",
-                    Name: "Arizona Cardinal",
-                    Date: "March 7",
-                    AwayTeam: "Falcon",
-                    Hometeam: "Cardinals",
-                    Homepoint: "78",
-                    AwayPoint: "45"
-                },
-                {
-                    City: "Atlanta",
-                    Name: "Falcons",
-                    Date: "March 7",
-                    AwayTeam: "Minnesota Vikings",
-                    Hometeam: "Falcons",
-                    Homepoint: "23",
-                    AwayPoint: "8"
-                },
-                {
-                    City: "N/S Carolinas",
-                    Name: "Carolina Panther",
-                    Date: "March 7",
-                    AwayTeam: "Minnesota Vikings",
-                    Hometeam: "Panther",
-                    Homepoint: "45",
-                    AwayPoint: "8"
-                },
-                {
-                    City: "Chicago",
-                    Name: "Chicago Bears",
-                    Date: "March 7",
-                    AwayTeam: "Dallas Cowboys",
-                    Hometeam: "Chicago Bears",
-                    Homepoint: "78",
-                    AwayPoint: "8"
-                },
-                {
-                    City: "Dallas",
-                    Name: "Dallas Cowboys",
-                    Date: "March 7",
-                    AwayTeam: "Chicago Bears",
-                    Hometeam: "Dallas Cowboys",
-                    Homepoint: "90",
-                    AwayPoint: "87"
-                },
-                {
-                    City: "Detroits",
-                    Name: "Detroit Lions",
-                    Date: "March 7",
-                    AwayTeam: "Chicago Bears",
-                    Hometeam: "Detroit Lions",
-                    Homepoint: "90",
-                    AwayPoint: "87"
-                },
-                {
-                    City: "Jacksonville",
-                    Name: "Jacksonville Jaguars",
-                    Date: "March 7",
-                    AwayTeam: "Chicago Bears",
-                    Hometeam: "Jacksonville Jaguars",
-                    Homepoint: "90",
-                    AwayPoint: "87"
-                },
 
-                {
-                    City: "GreenBay",
-                    Name: "Green Bay Packers",
-                    Date: "March 7",
-                    AwayTeam: "Detroit Lions",
-                    Hometeam: "Green Bay Packers",
-                    Homepoint: "90",
-                    AwayPoint: "87"
-                },
-
-                {
-                    City: " Los Angeles",
-                    Name: " Los Angeles Rams",
-                    Date: "March 7",
-                    AwayTeam: "Detroit Lions",
-                    Hometeam: " Los Angeles Rams",
-                    Homepoint: "90",
-                    AwayPoint: "87"
-                },
-                {
-                    City: " Los Angeles",
-                    Name: " Los Angeles Rams",
-                    Date: "March 7",
-                    AwayTeam: "Detroit Lions",
-                    Hometeam: " Los Angeles Rams",
-                    Homepoint: "90",
-                    AwayPoint: "87"
-                },
-                {
-                    City: "Minnesota",
-                    Name: "Minnesota Vikings",
-                    Date: "March 7",
-                    AwayTeam: "Detroit Lions",
-                    Hometeam: "Minnesota",
-                    Homepoint: "90",
-                    AwayPoint: "87"
-                },
-                {
-                    City: "New Orleans",
-                    Name: "New Orleans Saints",
-                    Date: "March 7",
-                    AwayTeam: "Detroit Lions",
-                    Hometeam: "New Orleans Saints",
-                    Homepoint: "90",
-                    AwayPoint: "87"
-                },
-                {
-                    City: "New York",
-                    Name: "New York Giants",
-                    Date: "March 7",
-                    AwayTeam: "Detroit Lions",
-                    Hometeam: "New York Giants",
-                    Homepoint: "90",
-                    AwayPoint: "87"
-                },
-                {
-                    City: "Denver",
-                    Name: "Denver Broncos",
-                    Date: "March 7",
-                    AwayTeam: "Detroit Lions",
-                    Hometeam: "Denver Broncos",
-                    Homepoint: "90",
-                    AwayPoint: "87"
-                },
-                {
-                    City: "Houston ",
-                    Name: "Houston Texan",
-                    Date: "March 7",
-                    AwayTeam: "Detroit Lions",
-                    Hometeam: "Houston Texan",
-                    Homepoint: "90",
-                    AwayPoint: "87"
-                },
-                {
-                    City: "Miami ",
-                    Name: " Miami Dolphins ",
-                    Date: "March 7",
-                    AwayTeam: "Detroit Lions",
-                    Hometeam: " Miami Dolphins ",
-                    Homepoint: "90",
-                    AwayPoint: "87"
-                },
-                {
-                    City: "Tennessee",
-                    Name: " Tennessee Titans",
-                    Date: "March 7",
-                    AwayTeam: "Detroit Lions",
-                    Hometeam: " Tennessee Titans",
-                    Homepoint: "90",
-                    AwayPoint: "87"
-                },
-                {
-                    City: "Buffalo",
-                    Name: " Buffalo Bills",
-                    Date: "March 7",
-                    AwayTeam: "Miami Dolphins",
-                    Hometeam: "Buffalo Bills",
-                    Homepoint: "90",
-                    AwayPoint: "87"
-                }
-            ]
             theNFLstat = theNFLstat + "The Date is " + ".<br> The Hometeam is" +
                 ".<br> The Awayteam is" + ".<br> The Awaypoint is" + ".<br>the Homepoint is" + ".";
         }
@@ -588,15 +585,14 @@ el.$input(el) = "flex-container";
 log.$input(el) = "mySelect";
 btns.$input(el) = "addBtn";
 btns.$teamStat(el) = "updatebtn";
-update.$input(el)=
-[City = City,
-Name = Name,
-Date = Date,
-Awayteam = Awayteam,
-Awaypoint = Awaypoint,
-Homepoint = Homepoint,
-Hometeam = Hometeam, ]
-{
+update.$input(el) = [City = City,
+    Name = Name,
+    Date = Date,
+    Awayteam = Awayteam,
+    Awaypoint = Awaypoint,
+    Homepoint = Homepoint,
+    Hometeam = Hometeam,
+]; {
 
 }
 updateNFL.inputValue;
