@@ -1,3 +1,5 @@
+
+
 <!DOCTYPE html>
 <html lang="en" >
 <head>
@@ -17,15 +19,17 @@
     
     <body>
      <form = "gameForm">   
-  <div class = "tiledbackground">   
+  <div class = "tiledbackground">    
+    
+    <div id="listBox" class="header">
+    
+
+      <button type = "button" span onclick="AddGame()" class="addBtn">AddGame</button> 
       
-<button onclick="AddGame()"class="btn btn-primary" >  
-   <action="https://wolfmanbunnydeer.github.io/NFLgames-team3/"><p> Add Game</p></button></action>
-  
-           <button onclick="Update()"class="btn btn-primary" >  
-   <action="https://wolfmanbunnydeer.github.io/NFLgames-team3/"><p> Update</p></button></action>
+      <button type = "button" span onclick="Update()" class="updateBtn">Update</button> 
   <div class = "flex-container"></div> </button>    
- </div>
+   </div>
+ <table><tr><td> 
     <p><label>Win</label><select id="mySelect">  
      <option>1</option>
     <option>2</option>
@@ -162,12 +166,13 @@
        <option>16</option>
    <option>17</option>
                       </select>
-  
+      
 </p>  
-</p
+</p>
     <div id="gameOutput"></div>
 
-  </br>  
+  </br>   
+
 <h1><p><p style = "color:darkblue;"> This flexbox self create a own NFL profile Flex Container by Carol Chang</p></p></h1>
     
 
@@ -287,7 +292,7 @@
   <p> ties: 5</p></div> </h2>
   </main>
 </div>
-</form>
+
 <form id="gamesForm">
 <ul>         
   <ul id="list">
@@ -375,4 +380,3 @@
    <script  src="./script.js"></script>
 </body>
 </html>
-
