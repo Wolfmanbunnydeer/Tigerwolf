@@ -1,3 +1,21 @@
+document.getElementById("gameButton").addEventListener("click", myFunction);
+document.getElementByClassName("addBtn").addEventListener("click", myFunction);
+document.getElementsByClassName("updateBtn").addEventListener("click", myFunction);
+function UPDATE() {
+let theflex = ""
+var i
+  for (i= 0; theflex.length; i++)
+    if(i>0); theflex = "<option>"
+  }          document.getElementByClassName("updateBtn").addEventListener("click", NFLFunction);
+function AddGame() {
+let theflex = ""
+var i
+  for (i= 0; theflex.length; i++)
+    if(i>0); theflex = "<option>"
+  }          document.getElementById("addBtn").addEventListener("click", NFLFunction);
+var tempwins = document.createElement("wins");
+var temploses = document.createElement("loses");
+}
 var tempdate = document.querySelector("date");
 var hometeam = document.querySelector("Hometeam");
 var awayteam = document.querySelector("awayteam");
@@ -346,7 +364,7 @@ for (i = 0; i < close.length; i++) {
         para.appendChild(node);
 
         // Append the p element to the body:
-        document.getElementById("gameDIV").innerhtml(para);
+        document.getElementById("gameDIV").innerHTML(para);
     }
 
     function createNFLItem(name) {
@@ -548,8 +566,7 @@ for (i = 0; i < close.length; i++) {
             }
             document.getElementById("gameOutput").innerHTML = theNFLstat;
         }
-          var flex
-          = document.getElementByTagName("h2","div", "option");
+        document.getElementByTagName("h2","div","flex-container","option");
         }
         var stat =
             document.getElementById("gameButton").addEventListener("click", gameFunction);
