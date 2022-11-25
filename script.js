@@ -223,16 +223,7 @@ el.$input(el) = "flex-container";
 log.$input(el) = "mySelect";
 btns.$input(el) = "addBtn";
 btns.$teamStat(el) = "updatebtn";
-update.$input(el) = [City = City,
-    Name = Name,
-    Date = Date,
-    Awayteam = Awayteam,
-    Awaypoint = Awaypoint,
-    Homepoint = Homepoint,
-    Hometeam = Hometeam,
-]; {
-
-}
+update.$input(el) = "input";
 updateNFL.inputValue;
 
 var tempwins = document.getElementById('mySelect').input.onclick('addbtn');
