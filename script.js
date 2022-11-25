@@ -1,11 +1,11 @@
 var theNFLstat = [{
-        City: String,
-        Name: String,
-        Date: String,
-        AwayTeam: String,
-        Hometeam: String,
-        Homepoint: String,
-        AwayPoint: String,
+        City: string,
+        Name: string,
+        Date:string,
+        AwayTeam: string,
+        Hometeam: string,
+        Homepoint: string,
+        AwayPoint: string,
     }, ]
     [{
             City: "Arizona",
