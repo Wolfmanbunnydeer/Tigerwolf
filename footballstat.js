@@ -1,4 +1,4 @@
-// Create a "close" button and append it to each list item
+// Create "Update" button and append it to each list item
 
 var myNodelist = document.getElementsByTagName("LI");
 
@@ -42,7 +42,65 @@ if (a.innerHTML.toUpperCase().indexOf(button) > -1) {
     a[i].style.display = "";
 } else {}
 a[i].style.display = "flex";
-var updateNFL = [{
+
+class Teams {
+  constructor(brand) {
+    this.teamsname = brand;
+  }
+  present() {
+    return 'update ' + this.teamname;
+  }
+}
+
+class Model extends Teams {
+  constructor(brand, mod) {
+    super(brand);
+    this.model = mod;
+  }
+  show() {
+    return this.present() + ', update ' + this.model;
+  }
+}
+
+let myNFLteams= new Model("Los Angeles Rams", "Minnesota Vikings",);
+document.getElementBy("updateBtn").innerHTML = myNFL.show();
+  }
+}
+
+let myNFLteams= new Model("Los Angeles Rams", "Minnesota Vikings",);
+document.getElementBy("addBtn").innerHTML = myNFL.show();
+
+The super() method refers to the parent class.
+
+By calling the super() method in the constructor method, we call the parent's constructor method and gets access to the parent's properties and methods.
+
+Inheritance is useful for code reusability: reuse properties and methods of an existing class when you create a new class.
+
+Getters and Setters
+Classes also allows you to use getters and setters.
+
+It can be smart to use getters and setters for your properties, especially if you want to do something special with the value before returning them, or before you set them.
+
+To add getters and setters in the class, use the get and set keywords.
+
+Example
+Create a getter and a setter for the "NFLname" property:
+
+class NFLteams {
+  constructor(brand) {
+    this.nflname = brand;
+  }
+  get nnam() {
+    return this.nflname;
+  }
+  set nnam(x) {
+    this.nflname = x;
+  }
+}
+
+let myNFLteams = new NFLteams("Los Angeles Rams", "Arizona Cardinal", "Falcons");
+
+document.getElementById("demo").innerHTML = myNFLteams.tnam; = [{
         City: "Arizona",
         Name: "Arizona Cardinal",
         Date: "March 7",
@@ -307,6 +365,6 @@ var i = ""
 for (i = 0; i < header.length; i++) {}
 close[i].onclick = function() {}
 var div = this.parentElement; {}
-div.style.display = "flex-container"; {
+div.style.display = "wrap"; {
     document.getElementById("gameOutput").innerHTML = "";
 }
