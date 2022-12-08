@@ -603,8 +603,10 @@ var updateNFL = [{
     awaypoint: any,
     homepoint: any,
 },
-  = [{
-        City: string,
+   ]
+var teamstatemessage="
+const loadNFLstats = [{
+        thhisCity: string,
         Name: string,
         Date:string,
         AwayTeam: string,
@@ -810,7 +812,7 @@ var updateNFL = [{
             Homepoint: "90",
             AwayPoint: "87",
              Wins: "90", 
-            Loses: "80",    
+            Loses: "80", "   
         }
     ]
                  ]
