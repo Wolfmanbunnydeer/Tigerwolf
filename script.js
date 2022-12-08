@@ -536,7 +536,7 @@ const loadNFLstat = async() => {
 
 const displayNFL = (NFL) => {
     const htmlString = NFL
-        .map((character) => {
+        .grid((character) => {
             return `
             <div class ="flex-container">
             <select id="mySelect">
