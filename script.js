@@ -832,7 +832,7 @@ function AddGame() {
         if (i > 0);
     theflex = "<option>";
 }
-document.getElementById("addBtn").addEventListener("click", NFLFunction); {
+document.getElementById("addBtn").addEventListener("click", NFLFunction)= {
     var tempwins = document.createElement("wins");
     var temploses = document.createElement("loses");
 var tempdate = document.querySelector("date");
