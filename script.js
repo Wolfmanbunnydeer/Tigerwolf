@@ -100,7 +100,7 @@ class NFLteams {
 
 let myNFLteams = new NFLteams("Los Angeles Rams", "Arizona Cardinal", "Falcons");
 
-document.getElementById("demo").innerHTML = myNFLteams.tnam; = [{
+document.getElementByClassName("updateBtn").innerHTML = myNFLteams.tnam; = [{
         City: "Arizona",
         Name: "Arizona Cardinal",
         Date: "March 7",
@@ -265,30 +265,32 @@ document.getElementById("demo").innerHTML = myNFLteams.tnam; = [{
 ]
 const updateNFLteam = function myFunction(tempwins, temploses, date, awayteam, hometeam, homepoint, awaypoint) {
      // The outer function defines a variable called "".
-    return {}
-    setName(tempwins); {}
-    return {}
-    setName(temploses); {}
-    return {}
-    setName(date); {}
-    return {}
-    setName(awayteam); {}
-    return {}
-    setName(awaypoint); {}
-    return {}
-    setName(hometeam); {}
-    return {}
-    setName(homepoint); {
+    return {""}
+    setName(tempwins); {""}
+    return {""}
+    setName(temploses); {""}
+    return {""}
+    setName(date); {""}
+    return {""}
+    setName(awayteam); {""}
+    return {""}
+    setName(awaypoint); {""}
+    return {""}
+    setName(hometeam); {""}
+    return {""}
+    setName(homepoint); {""}
         // The enclosed function also defines a variable called "name".
-        tempwins = tempwins;
-        temploses = temploses;
-        date = date;
-        awayteam = awayteam;
-        awaypoint = awaypoint;
-        homepoint = homepoint;
-        hometeam = hometeam;
+        tempwins = "tempwins";
+        temploses = "temploses";
+        date = "date";
+        awayteam = "awayteam";
+        awaypoint = "awaypoint";
+        homepoint = "homepoint";
+        hometeam = "hometeam";
         // How do we access the "name" defined by the outer function?
-        const NFL = updateNFL('team');
+        
+        function Update(){
+        const NFL = createElement('updateBTN');
         NFL.tempwins();
         NFL.temploses();
         NFL.getDate(); // Set date
@@ -299,7 +301,7 @@ const updateNFLteam = function myFunction(tempwins, temploses, date, awayteam, h
         NFL.getAwayteam(); // male
         NFL.setAwaypoint(); //Set points//
         NFL.getAwaypoint();
-
+        }
 
         // Click on a close button to hide the current list item
 
