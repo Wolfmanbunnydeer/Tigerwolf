@@ -834,9 +834,12 @@ function AddGame() {
         if (i > 0);
     theflex = "<option>";
 }
-document.getElementById("addBtn").addEventListener("click", NFLFunction)= {
-    var tempwins = document.createElement("wins");
-    var temploses = document.createElement("loses");
+document.getElementByTagName("loadedNFL").addEventListener("click", NFLFunction):{
+   var addGame = document.getElementByTagName("addBtn")
+    var update = = document.getElementByTagName("updateBtn")
+    var updateNFLflex = document.createElement("flex-container");
+    var tempwins = document.querySelector("tempwins");
+    var temploses = document.querySelector("loses");
 var tempdate = document.querySelector("date");
 var hometeam = document.querySelector("Hometeam");
 var awayteam = document.querySelector("awayteam");
@@ -850,7 +853,7 @@ var NFL = document.createElement("updateBtn").innerHTML = [{
     thisHomepoint: homepoint,
     thisAwayPoint: awaypoint,
     thisWins : Wins,
-        thisLoses:Loses,     
+    thisLoses:Loses,     
 }]
 let el;
 let userInput;
@@ -1162,22 +1165,45 @@ const displayNFL = (NFL) => {
     const htmlString = NFL
         .grid((character) => {
             return `
-            <div class ="flex-container">
+         <div class ="flex-container">
             <select id="mySelect">
                 <h2>${NFL.name}</h2>
-                <p>Wins: ${NFL.wins}</p>
-                <p>Loses: ${NFL.loses}</p>
+                 <img src="${NFL.image}"></img>
+                <p>City : ${NFL.city}</p>
                 <p>Date: ${NFL.Date}</p>
                 <p>Hometeam: ${NFL.Hometeam}</p>
                 <p>Homepoint: ${NFL.Date}</p>
                 <p>Awayteam: ${NFL.Date}</p>
-                <p>Awaypoint: ${NFL.Date}</p>
-                <img src="${NFL.image}"></img>
+                <p>Awaypoint: ${NFL.Date}</p>  
+                <p>Wins: ${NFL.wins}</p>
+                <p>Loses: ${NFL.loses}</p>
+                
             </li>
+            </div>
         `;
         })
         .join('');
     NFLstatList.innerHTML = htmlString;
 };
 
-loadNFLstat();
+loadNFLstatList();
+    const displayNFL = (NFL) => {
+    const htmlString = NFL
+        .flex((character) => {
+            return `
+   <div class ="flex-container">
+            <select id="mySelect">
+                <h2>${NFL.name}</h2>
+                 <img src="${NFL.image}"></img>
+                <p>City : ${NFL.city}</p>
+                <p>Date: ${NFL.Date}</p>
+                <p>Hometeam: ${NFL.Hometeam}</p>
+                <p>Homepoint: ${NFL.Date}</p>
+                <p>Awayteam: ${NFL.Date}</p>
+                <p>Awaypoint: ${NFL.Date}</p>  
+                <p>Wins: ${NFL.wins}</p>
+                <p>Loses: ${NFL.loses}</p>
+     
+            </li>
+            </div>
+        `;
