@@ -1,20 +1,15 @@
 // Create "Update" button and append it to each list item
 
 var myNodelist = document.getElementsByTagName("LI");
-
-
 var div = document.createElement("DIV");
-
 var txt = document.createTextNode("\u00D7");
-
 div.className = "txt";
-
 div.appendChild(txt);
 //
 document.getElementById("gameButton").addEventListener("click", myFunction)
 document.getElementById("updateButton").addEventListener("click", myFunction)
 
-function myFunction() {
+function AddGame() {
     var theNFLstat = "<div>" + "<h2>"
     let theflex = ""
     var i
@@ -42,8 +37,17 @@ if (a.innerHTML.toUpperCase().indexOf(button) > -1) {
     a[i].style.display = "";
 } else {}
 a[i].style.display = "flex";
+}
+function Update() {
+  var x = document.createElement("FORM");
+  x.setAttribute("id", "myForm");
+  document.body.appendChild(x);
 
-
+  var y = document.createElement("INPUT");
+  y.setAttribute("flexbox", "text");
+  y.setAttribute("value", "Donald");
+  document.getElementById("myForm").appendChild(y);
+}
 document.getElementByClassName("updateBtn").innerHTML = myNFLteams.tnam; = [{
         City: "Arizona",
         Name: "Arizona Cardinal",
