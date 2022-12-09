@@ -43,62 +43,6 @@ if (a.innerHTML.toUpperCase().indexOf(button) > -1) {
 } else {}
 a[i].style.display = "flex";
 
-class Teams {
-  constructor(brand) {
-    this.teamsname = brand;
-  }
-  present() {
-    return 'update ' + this.teamname;
-  }
-}
-
-class Model extends Teams {
-  constructor(brand, mod) {
-    super(brand);
-    this.model = mod;
-  }
-  show() {
-    return this.present() + ', update ' + this.model;
-  }
-}
-
-let myNFLteams= new Model("Los Angeles Rams", "Minnesota Vikings",);
-document.getElementBy("updateBtn").innerHTML = myNFL.show();
-  }
-}
-
-let myNFLteams= new Model("Los Angeles Rams", "Minnesota Vikings",);
-document.getElementBy("addBtn").innerHTML = myNFL.show();
-
-The super() method refers to the parent class.
-
-By calling the super() method in the constructor method, we call the parent's constructor method and gets access to the parent's properties and methods.
-
-Inheritance is useful for code reusability: reuse properties and methods of an existing class when you create a new class.
-
-Getters and Setters
-Classes also allows you to use getters and setters.
-
-It can be smart to use getters and setters for your properties, especially if you want to do something special with the value before returning them, or before you set them.
-
-To add getters and setters in the class, use the get and set keywords.
-
-Example
-Create a getter and a setter for the "NFLname" property:
-
-class NFLteams {
-  constructor(brand) {
-    this.nflname = brand;
-  }
-  get nnam() {
-    return this.nflname;
-  }
-  set nnam(x) {
-    this.nflname = x;
-  }
-}
-
-let myNFLteams = new NFLteams("Los Angeles Rams", "Arizona Cardinal", "Falcons");
 
 document.getElementByClassName("updateBtn").innerHTML = myNFLteams.tnam; = [{
         City: "Arizona",
@@ -1209,3 +1153,6 @@ loadNFLstatList();
             </li>
             </div>
         `;
+        };
+              
+            
