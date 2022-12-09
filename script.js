@@ -6,13 +6,13 @@ var txt = document.createTextNode("\u00D7");
 div.className = "txt";
 div.appendChild(txt);
 //
-document.getElementById("gameButton").addEventListener("click", myFunction)
-document.getElementById("updateButton").addEventListener("click", myFunction)
+document.getElementById("gameButton").addEventListener("click", myFunction);
+document.getElementById("updateButton").addEventListener("click", myFunction);
 
 function AddGame() {
     var theNFLstat = "<div>" + "<h2>";
     let theflex = "div","<h2>";
-    var i
+    var i = "<div><h2>";
     for (i = 0; theflex.length; i++);
         if (i > 0);
     theflex += "<div>" + "<h2>";
@@ -23,11 +23,11 @@ function AddGame() {
 function Update() {
   document.createElement("h2").style.display = "flex";
 let i ="<div>","<h2>","<p>";
-for (let i = 0; i < theNFLstat.length; i++) {}
-for (let j = 0; j <= i; j++)
-    for (let i in theNFLstat.NFL) {
+for (let i = 0; i < theNFLstat.length; i++); {}
+for (let j = 0; j <= i; j++);
+    for (let i in theNFLstat.NFL); {
         i += "<h2>" + "<div>" + theNFLstat.NFL[i].stats + "</div>" + "</h2>";
-        for (let j in theNFLstat.NFL[i].flexWrap) {
+        for (let j in theNFLstat.NFL[i].flexWrap); {
             i += theNFLstat.NFL[i].flex[j] + "<h2>" + "<div>";
        for (let i in theNFLstat.NFL[0].stats{
            j+= theNFLstat.NFL[i].flex[j] +"</div>" + "</h2>";
