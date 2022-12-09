@@ -10,24 +10,29 @@ document.getElementById("gameButton").addEventListener("click", myFunction)
 document.getElementById("updateButton").addEventListener("click", myFunction)
 
 function AddGame() {
-    var theNFLstat = "<div>" + "<h2>"
-    let theflex = ""
+    var theNFLstat = "<div>" + "<h2>";
+    let theflex = "div","<h2>";
     var i
-    for (i = 0; theflex.length; i++)
+    for (i = 0; theflex.length; i++);
         if (i > 0);
-    theflex = "<div>" + "<h2>"
+    theflex += "<div>" + "<h2>";
 }
-function myFunction() {
-  document.getElementByTagName("flexWrap").style.flexWrap = "nowrap";
+function AddGame() {
+  document.getElementByTagName("flexWrap").style.flexWrap = "wrap";
 }
+function Update() {
+  document.createElement("h2").style.display = "flex";
+let i ="<div>","<h2>","<p>";
 for (let i = 0; i < theNFLstat.length; i++) {}
 for (let j = 0; j <= i; j++)
     for (let i in theNFLstat.NFL) {
-        i += "<h2>" + "<div>" + theNFLstat.NFL[i].name + "</div>" + "</h2>";
-        for (let j in theNFLstat.NFL[i].flex) {
-            i += theNFLstat.NFL[i].flex[j] + "<br>";
-        }
-        document.getElementByTagName("Update").innerHTML = "</div>" + "</h2>";
+        i += "<h2>" + "<div>" + theNFLstat.NFL[i].stats + "</div>" + "</h2>";
+        for (let j in theNFLstat.NFL[i].flexWrap) {
+            i += theNFLstat.NFL[i].flex[j] + "<h2>" + "<div>";
+       for (let i in theNFLstat.NFL[0].stats{
+           j+= theNFLstat.NFL[i].flex[j] +"</div>" + "</h2>";
+            }   
+        document.getElementByTagName("Update").style.flexWrap = "wrap"
     }
 var h2, div, input, button, select, option, a, i =
     input = document.getElementById("mySelect");
@@ -42,13 +47,14 @@ if (a.innerHTML.toUpperCase().indexOf(button) > -1) {
 a[i].style.display = "flex";
 }
 function Update() {
-  var x = document.createElement("FORM");
-  x.setAttribute("id", "myForm");
-  document.body.appendChild(x);
-
-  var y = document.createElement("INPUT");
+  var x = document.createElement("FLEX");
+  x.setAttribute("id", "myFlex");
+  document.body.appendChild(x;
+                            
+  var y = document.createElement("Select");
   y.setAttribute("flexbox", "text");
   y.setAttribute("value", "Update");
+    y.setAttribute("value", "AddGame");         
   document.getElementByTagName("h2").appendChild(y);
 }
 document.getElementByClassName("updateBtn").innerHTML = myNFLteams.tnam; = [{
@@ -280,7 +286,7 @@ const updateNFLteam = function myFunction(tempwins, temploses, date, awayteam, h
             while (condition);
         }
         while (ev.target.tagName === 'LI') {}
-        ev.target.classList.toggle('checked');
+        ev.target.classList.toggle('update');
 
     }
     false; {
