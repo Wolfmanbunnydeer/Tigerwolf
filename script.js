@@ -1001,7 +1001,7 @@ if (inputValue === '') {
 
 }
 
-document.getElementByTagName("flex-container").value = "";
+document.getElementByTagName("flex-container").value = "<h2>";
 
 var today = new Date();
 var dd = String(today.getDate()).padStart(2, '0');
@@ -1016,7 +1016,7 @@ var NFLteam =
 
 function myFunction() {
     var x = document.getElementById("mySelect");
-    var txt = "";
+    var txt = "<option>";
     var i;
     for (i = 0; i < x.length; i++) {
         txt = txt + x.options[i].text + "<br>";
@@ -1044,7 +1044,7 @@ function createNFLItem(name) {
 document.getElementById("gameButton").addEventListener("click", myFunction);
 
 function Update() {
-    let theflex = ""
+    let theflex = "<h2>"
     var i
     for (i = 0; theflex.length; i++)
         if (i > 0);
@@ -1053,7 +1053,7 @@ function Update() {
 document.getElementById("gameButton").addEventListener("click", UpdateFunction);
 
 function Update() {
-    var theNFLstat = ""
+    var theNFLstat = "<div><h2>"
     for (let i = 0; i < theNFLstat.length; i++) {
         for (let j = 0; j <= i; j++) {
 
@@ -1068,7 +1068,7 @@ var stat =
 
 function gameFunction() {
     let MyArray = document.getElementById("gameDiv").value;
-    var i
+    var i = 0;
 }
 for (i = 0; i < MyArray; i++) {
     MyArray += "&myArray=" + MyArray[i];
@@ -1079,25 +1079,11 @@ var StatinputValue = document.getElementById("mySelect").value;
 
 var teamStat = "<div>"+"<h2>";
 for (i = 0; i < teamStat.length; i++) {
-    StatinputValue += "</div>"+"</h2>";
+    else(StatinputValue += "</div>"+"</h2>"; i++){
+    }
 }
 document.getElementByTagName("gameDiv").value = "<div><h2>";
 
-var NFL = (temploses, tempwins, date, hometeam, homepoint, awaypoint, awayteam);
-forEach(element => updateNFLteam);
-for (let index = 0; index < array.length; index++)
-    document.getElementsByTagName = array[index];
-for (let index = 0; index < array.length; index++) {
-    const element = array[index];
-}
-while (condition);
-(forEachelement);
-updateNFLapp.use(express.static('public')); {
-    index: flex
-};
-var i = 0;
-const element = array[index]; {}
-}
 //Create element const
 const grid = document.getElementById('grid');
 const flexbox = document.createElement('flexbox');
@@ -1150,7 +1136,8 @@ const displayNFL = (NFL) => {
     NFLstatList.innerHTML = htmlString;
 };
 
-loadNFLstatList();
+loadNFLstatList(){
+}
     const displayNFL = (NFL) => {
     const htmlString = NFL
         .flex((character) => {
