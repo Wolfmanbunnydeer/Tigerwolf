@@ -17,6 +17,9 @@ function AddGame() {
         if (i > 0);
     theflex = "<div>" + "<h2>"
 }
+function myFunction() {
+  document.getElementByTagName("flexWrap").style.flexWrap = "nowrap";
+}
 for (let i = 0; i < theNFLstat.length; i++) {}
 for (let j = 0; j <= i; j++)
     for (let i in theNFLstat.NFL) {
@@ -24,7 +27,7 @@ for (let j = 0; j <= i; j++)
         for (let j in theNFLstat.NFL[i].flex) {
             i += theNFLstat.NFL[i].flex[j] + "<br>";
         }
-        document.getElementById("gameOutput").innerHTML = "</div>" + "</h2>";
+        document.getElementByTagName("Update").innerHTML = "</div>" + "</h2>";
     }
 var h2, div, input, button, select, option, a, i =
     input = document.getElementById("mySelect");
@@ -45,8 +48,8 @@ function Update() {
 
   var y = document.createElement("INPUT");
   y.setAttribute("flexbox", "text");
-  y.setAttribute("value", "Donald");
-  document.getElementById("myForm").appendChild(y);
+  y.setAttribute("value", "Update");
+  document.getElementByTagName("h2").appendChild(y);
 }
 document.getElementByClassName("updateBtn").innerHTML = myNFLteams.tnam; = [{
         City: "Arizona",
