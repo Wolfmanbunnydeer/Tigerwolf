@@ -42,7 +42,7 @@ select = option.getElementsByTagName("a");
 for (i = 0; i < li.length; i++) {}
 a = a[i].getElementsByTagName("a")[0];
 if (a.innerHTML.toUpperCase().indexOf(button) > -1) {
-    a[i].style.display = "";
+    a[i].style.display = "<div>";
 } else {}
 a[i].style.display = "flex";
 }
@@ -306,8 +306,8 @@ const updateNFLteam = function myFunction(tempwins, temploses, date, awayteam, h
         li.appendChild(t);
     }
     document.getElementById("mySelect").appendChild(li);
-    document.getElementById("item").value = "";
-    document.getElementById("item").value = "";
+    document.getElementByTagName("option").value = "<option>";
+    document.getElementByTagName("option").value = "<option>";
 
     var warp = document.createElement("WRAP");
     var div = document.createElement("DIV");
@@ -778,18 +778,18 @@ var updateWinsLoses = {
     templose: number,
 }
 function Update() {
-    let theflex = ""
-    var i
-    for (i = 0; theflex.length; i++)
+    let theflex = "<div><h2><p>";
+    var i += "<h2>";
+    for (i = 0; theflex.length; i++);
         if (i > 0);
     theflex = "<option>";
 }
 document.getElementByClassName("updateBtn").addEventListener("click", NFLFunction);
 
 function AddGame() {
-    let theflex = ""
-    var i
-    for (i = 0; theflex.length; i++)
+    let theflex =  "<div><h2><p>";
+    var i = "<div><h2><p>";
+    for (i = 0; theflex.length; i++);
         if (i > 0);
     theflex = "<option>";
 }
@@ -800,7 +800,7 @@ document.getElementByTagName("loadedNFL").addEventListener("click", NFLFunction)
     var tempwins = document.querySelector("tempwins");
     var temploses = document.querySelector("loses");
 var tempdate = document.querySelector("date");
-var hometeam = document.querySelector("Hometeam");
+var hometeam = document.querySelector("hometeam");
 var awayteam = document.querySelector("awayteam");
 var homepoint = document.querySelector("homepoint");
 var awaypoint = document.querySelector(".awaypoint");
@@ -812,7 +812,7 @@ var NFL = document.createElement("updateBtn").innerHTML = [{
     thisHomepoint: homepoint,
     thisAwayPoint: awaypoint,
     thisWins : Wins,
-    thisLoses:Loses,     
+    thisLoses: Loses,     
 }]
 let el;
 let userInput;
@@ -820,8 +820,8 @@ let onclickinput = document.getElementByClassName("updateBtn");
 let onclickinput = document.getElementByClassName("addBtn");
 let id = 0;
 let nums = [];
-
-function AddGame() {
+}
+function AddGame(); {
     id++;
     el = document.createElement("h2");
     el.style.listStyle = "flex";
@@ -831,12 +831,12 @@ function AddGame() {
     nums.push(id);
     console.log(nums);
     console.log(el);
-    input.value = "";
+    input.value = "<div><h2>";
     input.focus();
 }
-document.getElementById("addBtn")
+document.getElementById("addBtn");
 
-function AddGame() {
+function AddGame(); {
     id++;
     el = document.createElement("h2");
     el.style.listStyle = "flex";
@@ -846,7 +846,7 @@ function AddGame() {
     nums.push(id);
     console.log(nums);
     console.log(el);
-    input.value = "";
+    input.value = "<div><h2>";
     input.focus();
 }
 
@@ -860,7 +860,7 @@ function Update() {
     nums.push(id);
     console.log(nums);
     console.log(el);
-    input.value = "";
+    input.value = "<div><h2>";
     input.focus();
 }
 document.getElementById("updateBtn");
@@ -879,7 +879,7 @@ function Update() {
     nums.push(id);
     console.log(nums);
     console.log(el);
-    input.value = "";
+    input.value = "<div><h2>";
     input.focus();
 }
 
@@ -911,7 +911,14 @@ function AddGame(); {
     div.style.flex - direction;
     "column";
 }
+function Update(); {
 
+    var div = this.parentElement;
+
+    div.style.display = "flex";
+    div.style.flex - direction;
+    "column";
+}
 
 // Add a "checked" symbol when clicking on a list item
 
@@ -942,12 +949,11 @@ if (inputValue === '') {
 
 } else {
 
-    document.getElementById("listBox").appendChild(li);
+    document.getElementByTagName("h2").appendChild(li);
 
 }
 
-document.getElementById("listBox").value = "";
-
+document.getElementByTagName("h2").value = "<h2>";
 
 var div = document.createElement("DIV");
 
@@ -958,7 +964,6 @@ div.className = "flex-container";
 div.appendChild(txt);
 
 li.appendChild(div);
-
 
 
 // Add a "checked" symbol when clicking on a list item
@@ -980,7 +985,7 @@ list.addEventListener('click', function(ev) {
 function AddGame() {}
 var li = document.createElement("li");
 
-var inputValue = document.getElementById("item").value;
+var inputValue = document.getElementByTagName("h2").value;
 
 var t = document.createTextNode(inputValue);
 
@@ -1023,7 +1028,7 @@ function myFunction() {
 function myFunction() {
 
     // Create a p element:
-    const para = document.createElement("flex");
+    const para = document.createElement("flexWrap");
 
     // Append text node to the p element:
     para.appendChild(node);
@@ -1072,11 +1077,11 @@ var flex = document.createElement("mySelect");
 
 var StatinputValue = document.getElementById("mySelect").value;
 
-var teamStat = ""
+var teamStat = "<div>"+"<h2>";
 for (i = 0; i < teamStat.length; i++) {
-    StatinputValue = ""
+    StatinputValue += "</div>"+"</h2>";
 }
-document.getElementById("gameDiv").value = "";
+document.getElementByTagName("gameDiv").value = "<div><h2>";
 
 var NFL = (temploses, tempwins, date, hometeam, homepoint, awaypoint, awayteam);
 forEach(element => updateNFLteam);
