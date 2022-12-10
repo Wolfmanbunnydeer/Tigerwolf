@@ -794,16 +794,16 @@ function AddGame() {
     theflex = "<option>";
 }
 document.getElementByTagName("loadedNFL").addEventListener("click", NFLFunction):{
-   var addGame = document.getElementByTagName("addBtn")
-    var update = = document.getElementByTagName("updateBtn")
-    var updateNFLflex = document.createElement("flex-container");
+   var addGame = document.querySelector("addBtn")
+    var update = = document.querySelector("updateBtn")
+    var updateNFLflex = document.querySelector("flex-container");
     var tempwins = document.querySelector("tempwins");
     var temploses = document.querySelector("loses");
 var tempdate = document.querySelector("date");
 var hometeam = document.querySelector("hometeam");
 var awayteam = document.querySelector("awayteam");
 var homepoint = document.querySelector("homepoint");
-var awaypoint = document.querySelector(".awaypoint");
+var awaypoint = document.querySelector("awaypoint");
 }
 var NFL = document.createElement("updateBtn").innerHTML = [{
     thisDate: tempdate,
