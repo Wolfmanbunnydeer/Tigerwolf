@@ -1422,17 +1422,24 @@ loadNFLstat()
             </div>
         `;
         };
- document.getElementByClass("updateBtn").innerHTML += 
-  "<div class=\"gameResults\">" +
-  "<h2>" + hometeam + " (Home) vs"+ awayteam + " (Away)</h2>" + 
-  "<p class=\"dateP\">Date: " + date + "</p>" + 
-  "<img src=\"logos/" + hometeam() + ".png\" alt=\"\">" + 
-      "<img src=\"logos/" + awaypoint() + ".jpg\" alt=\"\">" +       
-  "<p class=\"scoreP\">" + homepoint + " - " + awaypoint + "</p>" +
-  "<img src=\"logos/" + awayteam() + ".png\" alt=\"\">" + 
-  "</div>"
-}
+ function Update(); 
+  document.getElementByClass("updateBtn").innerHTML += 
+  for(let i = 0; i < NFLArray.length; i++) {
+    document.getElementByTagName("NFLTeams").innerHTML +=
+    "<div class=\"flex-container\" id=\"list" + NFLArray[i].name + "\">" +
+    "<div class=\"teamDiv\" id=\"div" + NFLArray[i].name + "\">" +
+    "<h2>" + NFLArray[i].location + " " + NFLArray[i].name + "</h2>" +
+    "<img src=\"logos/" + NFLArray[i].logoImage + "\" alt=\"logo\">" +
+    "<div class=\"statsDiv\">" +
+    "<p>Win: </p>" + "<p>" + NFLArray[i].wins + "</p>" +
+    "<p>Loss: </p>" + "<p>" + NFLArray[i].losses + "</p>" +
+    "<p>Tie: </p>" + "<p>" + NFLArray[i].ties + "</p>" +
+    "</div>" +
+    "</div>" +
+    "</div>";
+  } 
+};
 
-Update();
+
               
             
