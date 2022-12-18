@@ -170,9 +170,8 @@ var updateNFL = [{
     homepoint: any,
 },
    ]
-var teamstatemessage="
 const loadNFLstats = [{
-        thhisCity: string,
+        City: string,
         Name: string,
         Date:string,
         AwayTeam: string,
@@ -378,7 +377,7 @@ const loadNFLstats = [{
             Homepoint: "90",
             AwayPoint: "87",
              Wins: "90", 
-            Loses: "80", "   
+            Loses: "80",   
         }
     ]
                  ]
@@ -396,11 +395,11 @@ function Update() {
 document.getElementByClassName("updateBtn").addEventListener("click", NFLFunction);
 
 function AddGame() {
-    let theflex =  "<div><h2><p>";
+    let theflex +=  "<div><h2><p>";
     var i = "<div><h2><p>";
     for (i = 0; theflex.length; i++);
         if (i > 0);
-    theflex = "<option>";
+    theflex +=  "<div><h2><p>";
 }
 document.getElementByTagName("loadedNFL").addEventListener("click", NFLFunction):{
    var addGame = document.querySelector("addBtn")
