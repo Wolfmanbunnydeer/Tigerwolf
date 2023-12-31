@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<!-- saved from url=(0024)https://postimg.cc/files -->
+<html><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<title>My images — Postimages</title>
+
+<meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0, user-scalable=no">
+<meta name="description" content="Provides free image upload and hosting integration for forums. Free picture hosting and photo sharing for websites and blogs.">
+<meta name="keywords" content="free image hosting, forum image hosting, phpbb image mod, phpbb upload mod, image upload mod, image host, sites, forums, picture hosting, photo sharing, image upload">
+<meta name="google" content="notranslate">
+<meta property="og:description" content="Provides free image upload and hosting integration for forums. Free picture hosting and photo sharing for websites and blogs.">
+<meta property="og:title" content="My images — Postimages">
+<meta property="og:image" content="//postimgs.org/apple-touch-icon.png">
+<meta property="og:url" content="https://postimg.cc/files">
+<link rel="shortcut icon" href="https://postimgs.org/favicon.ico">
+<link rel="apple-touch-icon" href="https://postimgs.org/apple-touch-icon.png">
+<link rel="stylesheet" href="./My images — Postimages_files/style.css">
+<link rel="canonical" href="https://postimages.org/files">
+</head>
+<body class="generic" data-new-gr-c-s-check-loaded="14.1147.0" data-gr-ext-installed="">
+<header class="sb-slide">
+<div class="container-fluid">
+<a href="https://postimages.org/" class="logo"><img src="./My images — Postimages_files/logo.png" alt="Postimage"></a>
+<nav class="mainmenu"><ul><li><a href="https://postimages.org/"><i class="fa fa-lg fa-cloud-upload"></i> Upload</a></li><li><a href="https://postimages.org/web"><i class="fa fa-lg fa-globe"></i> Upload by URL</a></li><li id="submenu"><a href="https://postimages.org/plugins"><i class="fa fa-lg fa-puzzle-piece"></i> Website plugins</a></li><li id="submenu"><a href="https://postimages.org/app"><i class="fa fa-lg fa-windows"></i> Windows App</a></li></ul></nav>
+<nav class="logins authorized"><ul><li><a href="https://postimages.org/plans" style="color:#fff;background:#6a23a6">Premium</a></li><li><span class="active"><i class="fa fa-picture-o"></i> My images</span></li><li><a href="https://postimg.cc/profile"><i class="fa fa-user"></i> carolchangzootopia1234@gmail.com</a></li><li><a href="https://postimg.cc/logout"><i class="fa fa-sign-out"></i> Logout</a></li></ul></nav>
+</div>
+<div id="menu-btn" class="sb-toggle-right"><div class="stripe-1"></div><div class="stripe-2"></div><div class="stripe-3"></div></div>
+</header>
+<div id="sb-main" class="slideout-panel slideout-panel-right">
+<div id="content">
+<div class="container">
+<h1>My images</h1>
+<div class="row">
+<div class="col-sm-12 controls">
+<div style="float: left;">
+<form method="POST" name="addgallery">
+<a href="https://postimages.org/plans" class="btn" style="color:#4d4d4e;background:#f2a900;border-color:#f2a900;font-weight:bold;margin-right:5px">Buy 3 years at 70% off</a>
+<input type="text" name="gallery_name" id="add_gallery_name" autocomplete="off" placeholder="Gallery name" value="" style="max-width:100%; width:250px; margin-right:5px">
+<span class="btn" data-action="add" id="addGalleryBtn">Create a new gallery</span>
+</form>
+</div>
+<div style="position: relative;float: right;"><form action="https://postimg.cc/search" method="post"><input style="padding-left:35px;margin-left:5px" type="text" placeholder="Search..." autocomplete="off" spellcheck="false" name="q" value="" required=""></form><span class="fa fa-search" style="left:15px;top:13px;position: absolute;z-index: 2;"></span></div>
+</div>
+</div>
+</div>
+<div class="container gallery-list" id="gallery-list">
+<div class="row">
+<div class="col-sm-4 col-md-3 gallery-container" data-gallery="kdNG49m"><div class="gallery"><a href="https://postimg.cc/gallery/kdNG49m" style="background-image:url(&#39;https://i.postimg.cc/8P9PPk4Y/tumblr-054ed00f17f643026a3e020ff4df54ff-a23e0ae7-2048.png&#39;)" class="cover"> </a><h3 contenteditable="true" data-name="default" data-hex="kdNG49m">gallery</h3><div class="controls"><span class="count"><i class="fa fa-lg fa-picture-o"></i>&nbsp;488</span><div style="float:right" class="gallery-controls"><span class="btn" data-target="#settingsModal"><i class="fa fa-lg fa-cog" data-original-title="Settings"></i></span></div></div></div></div>
+</div>
+</div>
+<p id="loading"><i class="fa fa-refresh fa-spin"></i></p>
+</div>
+<footer>
+<nav class="bottom-menu container"><ul><li><a href="https://postimages.org/"><i class="fa fa-lg fa-cloud-upload"></i> Upload</a></li><li><a href="https://postimages.org/web"><i class="fa fa-lg fa-globe"></i> Upload by URL</a></li><li><a href="https://postimages.org/plugins"><i class="fa fa-lg fa-puzzle-piece"></i> Website plugins</a></li><li><a href="https://postimages.org/app"><i class="fa fa-lg fa-windows"></i> Windows App</a></li></ul><ul><li><a href="https://postimages.org/about">About</a></li><li><a href="https://postimages.org/terms">Terms of Use</a></li><li><a href="https://postimages.org/privacy">Privacy Policy</a></li><li><a href="https://postimages.org/faq">FAQ</a></li><li><a href="https://postimages.org/languages">Languages</a></li><li><a href="https://postimages.org/contact">Contact us</a></li></ul></nav>
+<div class="copyright">Powered by © Postimages.org, 2004-2023</div>
+</footer>
+</div>
+<nav id="side-menu" class="sb-slidebar slideout-menu slideout-menu-right"><ul style="border-bottom: 1px dashed #002b6c;"><li><a href="https://postimg.cc/plans">Premium</a></li><li><a class="active"><i class="fa fa-picture-o"></i> My images</a></li><li><a href="https://postimg.cc/profile"><i class="fa fa-user"></i> carolchangzootopia1234@gmail.com</a></li><li><a href="https://postimg.cc/logout"><i class="fa fa-sign-out"></i> Logout</a></li></ul><ul><li><a href="https://postimages.org/"><i class="fa fa-lg fa-cloud-upload"></i> Upload</a></li><li><a href="https://postimages.org/web"><i class="fa fa-lg fa-globe"></i> Upload by URL</a></li><li><a href="https://postimages.org/plugins"><i class="fa fa-lg fa-puzzle-piece"></i> Website plugins</a></li><li><a href="https://postimages.org/app"><i class="fa fa-lg fa-windows"></i> Windows App</a></li><li><a href="https://postimages.org/about">About</a></li><li><a href="https://postimages.org/terms">Terms of Use</a></li><li><a href="https://postimages.org/privacy">Privacy Policy</a></li><li><a href="https://postimages.org/faq">FAQ</a></li><li><a href="https://postimages.org/languages">Languages</a></li><li><a href="https://postimages.org/contact">Contact us</a></li></ul></nav>
+<div class="modal fade" id="settingsModal" role="dialog" aria-hidden="true" style="">
+	<div class="modal-dialog modal-md">
+		<div class="modal-content">
+			<div class="modal-header">
+				<p>Gallery settings</p>
+			</div>
+			<div class="modal-body" style="padding-top:0">
+				<form id="settingsForm" style="margin-top: 0px; visibility: visible;">
+					<input type="hidden" name="hex" value="kdNG49m">
+					<div class="row">
+						<div class="col-sm-4 control-label">Gallery name</div>
+						<div class="col-sm-8">
+							<input type="text" name="gallery_name" id="gallery_name" value="" class="width100" autocomplete="off">
+						</div>
+					</div>
+					<div class="row">
+						<div class="col-sm-4 control-label">Sort by</div>
+						<div class="col-sm-4">
+							<select name="sortfield" class="width100">
+								<option value="uploadtime">Upload time</option>
+								<option value="filename">Filename</option>
+							</select>
+						</div>
+						<div class="col-sm-4 align-right">
+							<div class="btn-group width100" data-toggle="buttons">
+								<label class="btn active">
+									<input type="radio" name="sortorder" value="asc"><i class="fa fa-arrow-up" style="margin-right:0"></i>
+								</label>
+								<label class="btn">
+									<input type="radio" name="sortorder" value="desc"><i class="fa fa-arrow-down" style="margin-right:0"></i>
+								</label>
+							</div>
+						</div>
+					</div>
+				</form>
+				<div style="text-align: right; margin-top:10px; padding-top:10px; border-top: 1px solid #e8e8e8">
+					<button type="button" class="btn" id="saveSettingsBtn" data-loading-text="Saving..." data-original-text="Save">Save</button>
+					<button type="button" class="btn" data-dismiss="modal">Cancel</button>
+				</div>
+			</div>
+		</div>
+	</div>
+</div>
+<script>var networkError="Network error";var copiedMessage="Copied!";var imageRemove="Remove this image?";var galleryRemove="Do you want to remove this gallery and all images inside?";var defaultLabel="default";var settingsLabel="Settings";var removeLabel="Remove";</script>
+<div class="modal fade" id="apiModal" role="dialog"><div class="modal-dialog modal-md"><div class="modal-content"><div class="modal-header"><p>Error</p></div><div class="modal-body"><p id="apierror"></p><div style="text-align: right; margin-top:10px"><button type="button" class="btn btn-warning" data-dismiss="modal">Close</button></div></div></div></div></div><script src="./My images — Postimages_files/global.js"></script>
+</body><grammarly-desktop-integration data-grammarly-shadow-root="true"><template shadowrootmode="open"><style>
+      div.grammarly-desktop-integration {
+        position: absolute;
+        width: 1px;
+        height: 1px;
+        padding: 0;
+        margin: -1px;
+        overflow: hidden;
+        clip: rect(0, 0, 0, 0);
+        white-space: nowrap;
+        border: 0;
+        -moz-user-select: none;
+        -webkit-user-select: none;
+        -ms-user-select:none;
+        user-select:none;
+      }
+
+      div.grammarly-desktop-integration:before {
+        content: attr(data-content);
+      }
+    </style><div aria-label="grammarly-integration" role="group" tabindex="-1" class="grammarly-desktop-integration" data-content="{&quot;mode&quot;:&quot;full&quot;,&quot;isActive&quot;:true,&quot;isUserDisabled&quot;:false}"></div></template></grammarly-desktop-integration></html>
